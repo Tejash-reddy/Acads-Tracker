@@ -1,4 +1,4 @@
-# I was too lazy to write readme so i used ai to generate it#
+# I was too lazy to write readme so i used ai to generate it
 🎓 Student Dashboard
 
 A student-centric academic dashboard that helps manage courses, CGPA/SGPA calculation, and timetable generation from structured JSON data.
