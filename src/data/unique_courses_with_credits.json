@@ -1,0 +1,4314 @@
+{
+  "totalCourses": 1079,
+  "totalCredits": 3528,
+  "courses": {
+    "MATH F102": {
+      "courseTitle": "Linear Algebra and Complex Variables",
+      "credits": 3
+    },
+    "BITS F102": {
+      "courseTitle": "Innovation and Design Thinking",
+      "credits": 1
+    },
+    "PHY F101": {
+      "courseTitle": "Oscillations and Waves",
+      "credits": 3
+    },
+    "CHEM F101": {
+      "courseTitle": "Fundamentals of Chemistry",
+      "credits": 3
+    },
+    "BITS F101": {
+      "courseTitle": "Social Conduct",
+      "credits": 1
+    },
+    "BITS K101": {
+      "courseTitle": "Physical Well-being and Creativity",
+      "credits": 1
+    },
+    "BITS F103": {
+      "courseTitle": "Engineering Design and Prototyping",
+      "credits": 4
+    },
+    "BIO F101": {
+      "courseTitle": "Introduction to Biological Sciences",
+      "credits": 3
+    },
+    "PHY F102": {
+      "courseTitle": "Introduction to Oscillations and Waves",
+      "credits": 3
+    },
+    "MATH F101": {
+      "courseTitle": "Multivariable Calculus",
+      "credits": 3
+    },
+    "CS F111": {
+      "courseTitle": "Computer Programming",
+      "credits": 4
+    },
+    "MATH F111": {
+      "courseTitle": "Mathematics I",
+      "credits": 3
+    },
+    "BITS F111": {
+      "courseTitle": "Thermodynamics",
+      "credits": 3
+    },
+    "BITS F110": {
+      "courseTitle": "Engineering Graphics",
+      "credits": 2
+    },
+    "HSS F101": {
+      "courseTitle": "Understanding Self And Society",
+      "credits": 2
+    },
+    "BITS F113": {
+      "courseTitle": "General Mathematics I",
+      "credits": 3
+    },
+    "BITS F114": {
+      "courseTitle": "General Mathematics II",
+      "credits": 3
+    },
+    "BITS F201": {
+      "courseTitle": "Material Science and Engineering",
+      "credits": 3
+    },
+    "CHEM F111": {
+      "courseTitle": "General Chemistry",
+      "credits": 3
+    },
+    "MATH F112": {
+      "courseTitle": "Mathematics II",
+      "credits": 3
+    },
+    "PHY F111": {
+      "courseTitle": "Mechanical Oscillations and Waves",
+      "credits": 3
+    },
+    "MATH F113": {
+      "courseTitle": "Probability and Statistics",
+      "credits": 3
+    },
+    "ME F110": {
+      "courseTitle": "Workshop Practice",
+      "credits": 2
+    },
+    "ME F112": {
+      "courseTitle": "Workshop Practice",
+      "credits": 2
+    },
+    "CHEM F110": {
+      "courseTitle": "Chemistry Laboratory",
+      "credits": 1
+    },
+    "PHY F110": {
+      "courseTitle": "Physics Laboratory",
+      "credits": 1
+    },
+    "AN F311": {
+      "courseTitle": "Principles of Aerodynamics",
+      "credits": 3
+    },
+    "AN F312": {
+      "courseTitle": "Aircraft Propulsion",
+      "credits": 3
+    },
+    "AN F313": {
+      "courseTitle": "Flight Mechanics and Controls",
+      "credits": 3
+    },
+    "AN F314": {
+      "courseTitle": "Introduction to Flight",
+      "credits": 3
+    },
+    "AN F315": {
+      "courseTitle": "Aircraft Structures",
+      "credits": 3
+    },
+    "CS F211": {
+      "courseTitle": "Data Structures & Algorithms",
+      "credits": 4
+    },
+    "CS F212": {
+      "courseTitle": "Database Systems",
+      "credits": 4
+    },
+    "CS F213": {
+      "courseTitle": "Object Oriented Programming",
+      "credits": 4
+    },
+    "CS F214": {
+      "courseTitle": "Logic in Computer Science",
+      "credits": 3
+    },
+    "CS F215": {
+      "courseTitle": "Digital Design",
+      "credits": 4
+    },
+    "CS F222": {
+      "courseTitle": "Discrete Structures for Computer Science",
+      "credits": 3
+    },
+    "CS F241": {
+      "courseTitle": "Microprocessors & Interfacing",
+      "credits": 4
+    },
+    "CS F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "CS F301": {
+      "courseTitle": "Principles of Programming Languages",
+      "credits": 2
+    },
+    "CS F303": {
+      "courseTitle": "Computer Networks",
+      "credits": 4
+    },
+    "CS F314": {
+      "courseTitle": "Software Development for Portable Devices",
+      "credits": 3
+    },
+    "CS F315": {
+      "courseTitle": "Information and Communication Technologies and Development",
+      "credits": 3
+    },
+    "CS F316": {
+      "courseTitle": "Quantum Architecture and Programming",
+      "credits": 3
+    },
+    "CS F317": {
+      "courseTitle": "Reinforcement Learning",
+      "credits": 3
+    },
+    "CS F320": {
+      "courseTitle": "Foundations of Data Science",
+      "credits": 3
+    },
+    "CS F342": {
+      "courseTitle": "Computer Architecture",
+      "credits": 4
+    },
+    "CS F351": {
+      "courseTitle": "Theory of Computation",
+      "credits": 3
+    },
+    "CS F363": {
+      "courseTitle": "Compiler Construction",
+      "credits": 3
+    },
+    "CS F364": {
+      "courseTitle": "Design & Analysis of Algorithms",
+      "credits": 3
+    },
+    "CS F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "CS F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "CS F372": {
+      "courseTitle": "Operating Systems",
+      "credits": 3
+    },
+    "CS F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "CS F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "CS F401": {
+      "courseTitle": "Multimedia Computing",
+      "credits": 3
+    },
+    "CS F402": {
+      "courseTitle": "Computational Geometry",
+      "credits": 3
+    },
+    "CS F404": {
+      "courseTitle": "Computer Crime and Forensics",
+      "credits": 2
+    },
+    "CS F406": {
+      "courseTitle": "Ethical Hacking",
+      "credits": 3
+    },
+    "CS F407": {
+      "courseTitle": "Artificial Intelligence",
+      "credits": 3
+    },
+    "CS F413": {
+      "courseTitle": "Internetworking Technologies",
+      "credits": 3
+    },
+    "CS F415": {
+      "courseTitle": "Data Mining",
+      "credits": 3
+    },
+    "CS F422": {
+      "courseTitle": "Parallel Computing",
+      "credits": 3
+    },
+    "CS F424": {
+      "courseTitle": "Software for Embedded Systems",
+      "credits": 4
+    },
+    "CS F425": {
+      "courseTitle": "Deep Learning",
+      "credits": 3
+    },
+    "CS F426": {
+      "courseTitle": "Graph Mining",
+      "credits": 4
+    },
+    "CS F427": {
+      "courseTitle": "Performance Analysis of Computer Networks",
+      "credits": 3
+    },
+    "CS F428": {
+      "courseTitle": "Special topic in Computer Science",
+      "credits": 1
+    },
+    "CS F429": {
+      "courseTitle": "Natural Language Processing",
+      "credits": 3
+    },
+    "CS F430": {
+      "courseTitle": "Approximation Algorithms",
+      "credits": 3
+    },
+    "CS F431": {
+      "courseTitle": "Combinatorial Optimization",
+      "credits": 3
+    },
+    "CS F432": {
+      "courseTitle": "Brain-inspired Deep Learning",
+      "credits": 3
+    },
+    "CS F433": {
+      "courseTitle": "Computational Neuroscience",
+      "credits": 3
+    },
+    "CS F437": {
+      "courseTitle": "Generative AI",
+      "credits": 3
+    },
+    "CS F441": {
+      "courseTitle": "Selected Topics from Computer Science",
+      "credits": 3
+    },
+    "CS F444": {
+      "courseTitle": "Real Time Systems",
+      "credits": 3
+    },
+    "CS F446": {
+      "courseTitle": "Data Storage Technologies and Networks",
+      "credits": 3
+    },
+    "CS F451": {
+      "courseTitle": "Combinatorial Mathematics",
+      "credits": 3
+    },
+    "CS F468": {
+      "courseTitle": "Information Security Project",
+      "credits": 3
+    },
+    "CS F469": {
+      "courseTitle": "Information Retrieval",
+      "credits": 3
+    },
+    "CS F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "CS G513": {
+      "courseTitle": "Network Security",
+      "credits": 4
+    },
+    "CS G519": {
+      "courseTitle": "Social Media Analytics",
+      "credits": 4
+    },
+    "CS G520": {
+      "courseTitle": "Advanced Data Mining",
+      "credits": 4
+    },
+    "CS G527": {
+      "courseTitle": "Cloud Computing",
+      "credits": 5
+    },
+    "CS G553": {
+      "courseTitle": "Reconfigurable Computing",
+      "credits": 5
+    },
+    "CS G557": {
+      "courseTitle": "Distributed Computing",
+      "credits": 5
+    },
+    "CE F211": {
+      "courseTitle": "Mechanics of Solids",
+      "credits": 3
+    },
+    "CE F212": {
+      "courseTitle": "Transport Phenomena",
+      "credits": 3
+    },
+    "CE F213": {
+      "courseTitle": "Surveying",
+      "credits": 4
+    },
+    "CE F214": {
+      "courseTitle": "Construction Materials",
+      "credits": 3
+    },
+    "BIOT F211": {
+      "courseTitle": "Biological Chemistry",
+      "credits": 3
+    },
+    "BIOT F212": {
+      "courseTitle": "Microbiology",
+      "credits": 4
+    },
+    "BIOT F213": {
+      "courseTitle": "Cell Biology",
+      "credits": 3
+    },
+    "BIOT F215": {
+      "courseTitle": "Biophysics",
+      "credits": 3
+    },
+    "BIOT F241": {
+      "courseTitle": "Genetic Engineering Techniques",
+      "credits": 4
+    },
+    "BIOT F242": {
+      "courseTitle": "Introduction to Bioinformatics",
+      "credits": 3
+    },
+    "BIOT F243": {
+      "courseTitle": "Genetics",
+      "credits": 3
+    },
+    "BIOT F244": {
+      "courseTitle": "Instrumental Methods of Analysis",
+      "credits": 4
+    },
+    "BIOT F245": {
+      "courseTitle": "Introduction to Environmental Biotechnology",
+      "credits": 3
+    },
+    "BIOT F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "BIOT F311": {
+      "courseTitle": "Recombinant DNA Technology",
+      "credits": 3
+    },
+    "BIOT F314": {
+      "courseTitle": "Industrial Microbiology and Bioprocess Engineering",
+      "credits": 4
+    },
+    "BIOT F342": {
+      "courseTitle": "Immunology",
+      "credits": 3
+    },
+    "BIOT F343": {
+      "courseTitle": "Experiments in Biotechnology",
+      "credits": 3
+    },
+    "BIOT F344": {
+      "courseTitle": "Downstream Processing",
+      "credits": 3
+    },
+    "BIOT F345": {
+      "courseTitle": "Proteomics",
+      "credits": 3
+    },
+    "BIOT F346": {
+      "courseTitle": "Genomics",
+      "credits": 3
+    },
+    "BIOT F347": {
+      "courseTitle": "Immunotechnology",
+      "credits": 3
+    },
+    "BIOT F352": {
+      "courseTitle": "Cell and Tissue Culture Technology",
+      "credits": 3
+    },
+    "BIOT F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "BIOT F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "BIOT F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "BIOT F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "BIOT F413": {
+      "courseTitle": "Molecular Biology of the Cell",
+      "credits": 3
+    },
+    "BIOT F416": {
+      "courseTitle": "Introduction to Pharmaceutical Biotechnology",
+      "credits": 3
+    },
+    "BIOT F417": {
+      "courseTitle": "Biomolecular Modeling",
+      "credits": 3
+    },
+    "BIOT F420": {
+      "courseTitle": "Introduction to Plant Biotechnology",
+      "credits": 3
+    },
+    "BIOT F422": {
+      "courseTitle": "Nanobiotechnology",
+      "credits": 3
+    },
+    "BIOT F423": {
+      "courseTitle": "Drug Design and Delivery",
+      "credits": 3
+    },
+    "BIOT F424": {
+      "courseTitle": "Food Biotechnology",
+      "credits": 3
+    },
+    "BIO F110": {
+      "courseTitle": "Biology Laboratory",
+      "credits": 1
+    },
+    "BIO F111": {
+      "courseTitle": "General Biology",
+      "credits": 3
+    },
+    "BIO F201": {
+      "courseTitle": "Introductory Biology",
+      "credits": 4
+    },
+    "BIO F211": {
+      "courseTitle": "Biological Chemistry",
+      "credits": 3
+    },
+    "BIO F212": {
+      "courseTitle": "Microbiology",
+      "credits": 4
+    },
+    "BIO F213": {
+      "courseTitle": "Cell Biology",
+      "credits": 3
+    },
+    "BIO F214": {
+      "courseTitle": "Integrated Biology",
+      "credits": 3
+    },
+    "BIO F215": {
+      "courseTitle": "Biophysics",
+      "credits": 3
+    },
+    "BIO F216": {
+      "courseTitle": "Water, Sanitation and Solid Waste Management",
+      "credits": 3
+    },
+    "BIO F217": {
+      "courseTitle": "Laboratory for Water, Sanitation and Solid Waste Management",
+      "credits": 3
+    },
+    "BIO F231": {
+      "courseTitle": "Biology Project Laboratory",
+      "credits": 3
+    },
+    "BIO F241": {
+      "courseTitle": "Ecology & Environmental Science",
+      "credits": 3
+    },
+    "BIO F242": {
+      "courseTitle": "Introduction to Bioinformatics",
+      "credits": 3
+    },
+    "BIO F243": {
+      "courseTitle": "Genetics",
+      "credits": 3
+    },
+    "BIO F244": {
+      "courseTitle": "Instrumental Methods of Analysis",
+      "credits": 4
+    },
+    "BIO F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "BIO F311": {
+      "courseTitle": "Recombinant DNA Technology",
+      "credits": 3
+    },
+    "BIO F312": {
+      "courseTitle": "Plant Physiology",
+      "credits": 3
+    },
+    "BIO F313": {
+      "courseTitle": "Animal Physiology",
+      "credits": 3
+    },
+    "BIO F314": {
+      "courseTitle": "Conservation Biology",
+      "credits": 3
+    },
+    "BIO F315": {
+      "courseTitle": "Applied Nutrition and Nutraceuticals",
+      "credits": 2
+    },
+    "BIO F341": {
+      "courseTitle": "Developmental Biology",
+      "credits": 3
+    },
+    "BIO F342": {
+      "courseTitle": "Immunology",
+      "credits": 3
+    },
+    "BIO F352": {
+      "courseTitle": "Cell and Tissue Culture Technology",
+      "credits": 4
+    },
+    "BIO F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "BIO F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "BIO F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "BIO F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "BIO F411": {
+      "courseTitle": "Laboratory",
+      "credits": 3
+    },
+    "BIO F413": {
+      "courseTitle": "Molecular Biology of Cell",
+      "credits": 3
+    },
+    "BIO F417": {
+      "courseTitle": "Biomolecular Modelling",
+      "credits": 3
+    },
+    "BIO F418": {
+      "courseTitle": "Genetic Engineering Techniques",
+      "credits": 4
+    },
+    "BIO F419": {
+      "courseTitle": "Molecular Evolution",
+      "credits": 3
+    },
+    "BIO F421": {
+      "courseTitle": "Enzymology",
+      "credits": 3
+    },
+    "BIO F431": {
+      "courseTitle": "Reproductive Physiology",
+      "credits": 3
+    },
+    "BIO F441": {
+      "courseTitle": "Biochemical Engineering",
+      "credits": 3
+    },
+    "BIO F451": {
+      "courseTitle": "Bioprocess Technology",
+      "credits": 3
+    },
+    "BIO F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "BIO G512": {
+      "courseTitle": "Molecular Mechanism of Gene Expression",
+      "credits": 5
+    },
+    "BIO G513": {
+      "courseTitle": "Microbial and Fermentation Technology",
+      "credits": 5
+    },
+    "BIO G514": {
+      "courseTitle": "Molecular Immunology",
+      "credits": 4
+    },
+    "BIO G515": {
+      "courseTitle": "Stem Cell and Regenerative Biology",
+      "credits": 4
+    },
+    "BIO G522": {
+      "courseTitle": "Interferon Technology",
+      "credits": 4
+    },
+    "BIO G523": {
+      "courseTitle": "Advanced and Applied Microbiology",
+      "credits": 5
+    },
+    "BIO G524": {
+      "courseTitle": "Animal Cell Technology",
+      "credits": 5
+    },
+    "BIO G525": {
+      "courseTitle": "Environmental Biotechnology & Waste Management",
+      "credits": 5
+    },
+    "BIO G526": {
+      "courseTitle": "Cancer Biology",
+      "credits": 5
+    },
+    "BIO G532": {
+      "courseTitle": "Biostatistics and Biomodeling",
+      "credits": 4
+    },
+    "BIO G544": {
+      "courseTitle": "Bioremediation and Biometallurgy",
+      "credits": 5
+    },
+    "BIO G545": {
+      "courseTitle": "Molecular Parasitology and Vector Biology",
+      "credits": 5
+    },
+    "BIO G561": {
+      "courseTitle": "Advances in Recombinant DNA Technology",
+      "credits": 5
+    },
+    "BIO G570": {
+      "courseTitle": "Recent Developments in Biology",
+      "credits": 1
+    },
+    "BIO G612": {
+      "courseTitle": "Human Genetics",
+      "credits": 5
+    },
+    "BIO G631": {
+      "courseTitle": "Membrane and Liposome Technology",
+      "credits": 4
+    },
+    "BIO G632": {
+      "courseTitle": "Transgenic Technology",
+      "credits": 5
+    },
+    "BIO G642": {
+      "courseTitle": "Experimental Techniques",
+      "credits": 4
+    },
+    "BIO G643": {
+      "courseTitle": "Plant Biotechnology",
+      "credits": 5
+    },
+    "BIO G651": {
+      "courseTitle": "Protein and Enzyme Bioengineering",
+      "credits": 5
+    },
+    "BIO G661": {
+      "courseTitle": "Gene Toxicology",
+      "credits": 4
+    },
+    "BIO G671": {
+      "courseTitle": "Bioconversion Technology",
+      "credits": 5
+    },
+    "CE F230": {
+      "courseTitle": "Civil Engineering Materials",
+      "credits": 4
+    },
+    "CE F231": {
+      "courseTitle": "Fluid Mechanics",
+      "credits": 3
+    },
+    "CE F241": {
+      "courseTitle": "Analysis of Structures",
+      "credits": 3
+    },
+    "CE F242": {
+      "courseTitle": "Construction Planning and Technology",
+      "credits": 3
+    },
+    "CE F243": {
+      "courseTitle": "Soil Mechanics",
+      "credits": 4
+    },
+    "CE F244": {
+      "courseTitle": "Highway Engineering",
+      "credits": 4
+    },
+    "CE F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "CE F311": {
+      "courseTitle": "Design of Concrete Structures",
+      "credits": 4
+    },
+    "CE F312": {
+      "courseTitle": "Hydraulics Engineering",
+      "credits": 4
+    },
+    "CE F313": {
+      "courseTitle": "Foundation Engineering",
+      "credits": 3
+    },
+    "CE F320": {
+      "courseTitle": "Design of Reinforced Concrete Structures",
+      "credits": 3
+    },
+    "CE F321": {
+      "courseTitle": "Engineering Hydrology",
+      "credits": 3
+    },
+    "CE F342": {
+      "courseTitle": "Water & Waste Water Treatment",
+      "credits": 4
+    },
+    "CE F343": {
+      "courseTitle": "Design of Steel Structures",
+      "credits": 3
+    },
+    "CE F323": {
+      "courseTitle": "Introduction to Environmental Engineering",
+      "credits": 3
+    },
+    "CE F324": {
+      "courseTitle": "Numerical Analysis",
+      "credits": 3
+    },
+    "CE F325": {
+      "courseTitle": "Fundamentals of Rock Mechanics",
+      "credits": 3
+    },
+    "CE F345": {
+      "courseTitle": "Computational Geomechanics",
+      "credits": 3
+    },
+    "CE F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "CE F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "CE F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "CE F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "CE F411": {
+      "courseTitle": "Operation Research for Engineers",
+      "credits": 3
+    },
+    "CE F412": {
+      "courseTitle": "Disaster Management",
+      "credits": 3
+    },
+    "CE F413": {
+      "courseTitle": "Advanced Structural Design",
+      "credits": 3
+    },
+    "CE F414": {
+      "courseTitle": "Introduction to Environmental Engineering",
+      "credits": 3
+    },
+    "CE F415": {
+      "courseTitle": "Design of Prestressed Concrete Structure",
+      "credits": 3
+    },
+    "CE F416": {
+      "courseTitle": "Computer Applications in Civil Engineering",
+      "credits": 4
+    },
+    "CE F417": {
+      "courseTitle": "Applications of Artificial Intelligence in Civil Engg.",
+      "credits": 3
+    },
+    "CE F419": {
+      "courseTitle": "Geotechnical Earthquake Engg. and Machine Foundation",
+      "credits": 3
+    },
+    "CE F420": {
+      "courseTitle": "Introduction to Bridge Engineering",
+      "credits": 3
+    },
+    "CE F421": {
+      "courseTitle": "Analysis and Design of FRP Reinforced Concrete Structures",
+      "credits": 3
+    },
+    "CE F422": {
+      "courseTitle": "Urban Hydrology",
+      "credits": 3
+    },
+    "CE F423": {
+      "courseTitle": "Green Buildings and Energy Conservation",
+      "credits": 3
+    },
+    "CE F425": {
+      "courseTitle": "Airport, Railways and Waterways",
+      "credits": 3
+    },
+    "CE F426": {
+      "courseTitle": "Geosynthetics and Reinforced Soil Structure",
+      "credits": 3
+    },
+    "CE F427": {
+      "courseTitle": "System Modeling and Analysis",
+      "credits": 3
+    },
+    "CE F428": {
+      "courseTitle": "Earthquake Resistant Design and Construction",
+      "credits": 3
+    },
+    "CE F429": {
+      "courseTitle": "Design of Foundation Systems",
+      "credits": 3
+    },
+    "CE F430": {
+      "courseTitle": "Design of Advanced Concrete Structures",
+      "credits": 3
+    },
+    "CE F431": {
+      "courseTitle": "Principles of Geographical Information Systems",
+      "credits": 4
+    },
+    "CE F432": {
+      "courseTitle": "Structural Dynamics",
+      "credits": 3
+    },
+    "CE F433": {
+      "courseTitle": "Remote Sensing and Image Processing",
+      "credits": 4
+    },
+    "CE F434": {
+      "courseTitle": "Environmental Impact Assessment",
+      "credits": 3
+    },
+    "CE F435": {
+      "courseTitle": "Introduction to Finite Element Methods",
+      "credits": 3
+    },
+    "CE F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "BITS F467": {
+      "courseTitle": "Bioethics and Biosafety",
+      "credits": 3
+    },
+    "BITS F415": {
+      "courseTitle": "Introduction to MEMS",
+      "credits": 4
+    },
+    "BITS F416": {
+      "courseTitle": "Introduction to Nanoscience",
+      "credits": 3
+    },
+    "BITS F417": {
+      "courseTitle": "Microfluidics and its application",
+      "credits": 4
+    },
+    "BITS F418": {
+      "courseTitle": "Introduction to Biomedical Engineering",
+      "credits": 4
+    },
+    "BITS F429": {
+      "courseTitle": "Nanotechnology for Renewable Energy and Environment",
+      "credits": 4
+    },
+    "BITS F313": {
+      "courseTitle": "Multicriterion Decision Making in Engg. and Management",
+      "credits": 3
+    },
+    "BITS F311": {
+      "courseTitle": "Image Processing",
+      "credits": 3
+    },
+    "BITS F312": {
+      "courseTitle": "Neural Networks and Fuzzy Logic",
+      "credits": 3
+    },
+    "BITS F343": {
+      "courseTitle": "Fuzzy Logic and Applications",
+      "credits": 3
+    },
+    "BITS F345": {
+      "courseTitle": "Information Law and Cyber Law",
+      "credits": 3
+    },
+    "BITS F351": {
+      "courseTitle": "Nonlinear Dynamics and Chaos",
+      "credits": 3
+    },
+    "BITS F364": {
+      "courseTitle": "Human \u2013 Computer Interaction",
+      "credits": 3
+    },
+    "BITS F386": {
+      "courseTitle": "Quantum Information and Computation",
+      "credits": 3
+    },
+    "BITS F407": {
+      "courseTitle": "Selected Readings",
+      "credits": 3
+    },
+    "BITS F412": {
+      "courseTitle": "Practice School II",
+      "credits": 20
+    },
+    "BITS F413": {
+      "courseTitle": "Practice School II",
+      "credits": 20
+    },
+    "BITS F452": {
+      "courseTitle": "Blockchain Technology",
+      "credits": 3
+    },
+    "BITS F453": {
+      "courseTitle": "Computational Learning Theory",
+      "credits": 3
+    },
+    "BITS F454": {
+      "courseTitle": "Bio-Inspired Intelligence: Algorithms and Applications",
+      "credits": 3
+    },
+    "BITS F463": {
+      "courseTitle": "Cryptography",
+      "credits": 3
+    },
+    "BITS F464": {
+      "courseTitle": "Machine Learning",
+      "credits": 3
+    },
+    "BITS F465": {
+      "courseTitle": "Enterprise Computing",
+      "credits": 4
+    },
+    "BITS F466": {
+      "courseTitle": "Service Oriented Computing",
+      "credits": 4
+    },
+    "BITS F314": {
+      "courseTitle": "Game Theory and Its Applications",
+      "credits": 3
+    },
+    "BITS F315": {
+      "courseTitle": "Introduction to Cognitive Neuroscience",
+      "credits": 3
+    },
+    "BITS F316": {
+      "courseTitle": "Non Linear Dynamics and Chaos",
+      "credits": 3
+    },
+    "BITS F462": {
+      "courseTitle": "Renewable Energy",
+      "credits": 3
+    },
+    "BITS F385": {
+      "courseTitle": "Introduction to Gender Studies",
+      "credits": 3
+    },
+    "BITS F214": {
+      "courseTitle": "Science, Technology and Modernity",
+      "credits": 3
+    },
+    "BITS F217": {
+      "courseTitle": "Environment, Development and Climate Change",
+      "credits": 3
+    },
+    "BITS F218": {
+      "courseTitle": "General Mathematics II",
+      "credits": 3
+    },
+    "BITS F219": {
+      "courseTitle": "Process Engineering",
+      "credits": 3
+    },
+    "BITS F221": {
+      "courseTitle": "Practice School I",
+      "credits": 5
+    },
+    "BITS F225": {
+      "courseTitle": "Environmental Studies",
+      "credits": 3
+    },
+    "BITS F226": {
+      "courseTitle": "Soft Skills for Professionals",
+      "credits": 3
+    },
+    "BITS F232": {
+      "courseTitle": "Foundations of Data Structures and Algorithms",
+      "credits": 4
+    },
+    "BITS F231": {
+      "courseTitle": "Practice School I",
+      "credits": 5
+    },
+    "BITS F241": {
+      "courseTitle": "Practice School I",
+      "credits": 3
+    },
+    "BITS F328": {
+      "courseTitle": "Innovation Ecosystem and the Future of Work",
+      "credits": 4
+    },
+    "BITS F399": {
+      "courseTitle": "Humanistic Theories of Science and Technology",
+      "credits": 3
+    },
+    "BITS F419": {
+      "courseTitle": "Management of Cross Cultural Engineering Teams",
+      "credits": 3
+    },
+    "BITS F421": {
+      "courseTitle": "Thesis",
+      "credits": 16
+    },
+    "BITS F422": {
+      "courseTitle": "Thesis",
+      "credits": 16
+    },
+    "BITS F423": {
+      "courseTitle": "Thesis",
+      "credits": 9
+    },
+    "BITS F424": {
+      "courseTitle": "Thesis",
+      "credits": 9
+    },
+    "BITS F211": {
+      "courseTitle": "Introduction to IPR",
+      "credits": 1
+    },
+    "BITS F212": {
+      "courseTitle": "Introduction to Human Rights",
+      "credits": 1
+    },
+    "BITS F213": {
+      "courseTitle": "Introduction to Environmental studies",
+      "credits": 1
+    },
+    "BITS F215": {
+      "courseTitle": "Applications of Bio-Medical Instrumentation Techniques in Healthcare",
+      "credits": 2
+    },
+    "BITS F317": {
+      "courseTitle": "Theoretical Neuroscience",
+      "credits": 3
+    },
+    "BITS F319": {
+      "courseTitle": "Negotiation Skills and Techniques",
+      "credits": 2
+    },
+    "BITS F320": {
+      "courseTitle": "Managerial Skills",
+      "credits": 2
+    },
+    "BITS F321": {
+      "courseTitle": "Legal and Economic Environment of Business",
+      "credits": 4
+    },
+    "BITS F322": {
+      "courseTitle": "Venture Team Development and Organisation",
+      "credits": 3
+    },
+    "BITS F323": {
+      "courseTitle": "Venture Finance",
+      "credits": 3
+    },
+    "BITS F324": {
+      "courseTitle": "Strategy For Entrepreneur",
+      "credits": 3
+    },
+    "BITS F325": {
+      "courseTitle": "New Product and Service Design",
+      "credits": 3
+    },
+    "BITS F326": {
+      "courseTitle": "Design Thinking for Innovation and Entrepreneurship",
+      "credits": 3
+    },
+    "BITS F327": {
+      "courseTitle": "AI for Robotics",
+      "credits": 3
+    },
+    "BITS F331": {
+      "courseTitle": "Quantum Information and Computation",
+      "credits": 3
+    },
+    "BITS F333": {
+      "courseTitle": "Project on Organisational Aspects",
+      "credits": 3
+    },
+    "BITS F334": {
+      "courseTitle": "Project on Organisational Aspects",
+      "credits": 3
+    },
+    "BITS F372": {
+      "courseTitle": "Data Communications and Networks",
+      "credits": 3
+    },
+    "BITS F381": {
+      "courseTitle": "TIC Projects",
+      "credits": 3
+    },
+    "BITS F382": {
+      "courseTitle": "Reading Course",
+      "credits": 3
+    },
+    "BITS F383": {
+      "courseTitle": "TIC Projects",
+      "credits": 3
+    },
+    "BITS F398": {
+      "courseTitle": "Creative Multimedia",
+      "credits": 3
+    },
+    "BITS F414": {
+      "courseTitle": "Introduction to Bioinformatics",
+      "credits": 3
+    },
+    "BITS F427": {
+      "courseTitle": "Digital Marketing",
+      "credits": 3
+    },
+    "BITS F428": {
+      "courseTitle": "Essentials of Strategic Management",
+      "credits": 3
+    },
+    "BITS F430": {
+      "courseTitle": "Renewable Energy Laboratory",
+      "credits": 2
+    },
+    "BITS F431": {
+      "courseTitle": "Flexible Manufacturing Systems",
+      "credits": 3
+    },
+    "BITS F433": {
+      "courseTitle": "Supply Chain Analytics",
+      "credits": 4
+    },
+    "BITS F437": {
+      "courseTitle": "Technical Communication",
+      "credits": 3
+    },
+    "BITS F441": {
+      "courseTitle": "Robotics",
+      "credits": 3
+    },
+    "BITS F442": {
+      "courseTitle": "Remote Sensing and Image Processing",
+      "credits": 3
+    },
+    "BITS F444": {
+      "courseTitle": "Artificial Intelligence",
+      "credits": 3
+    },
+    "BITS F445": {
+      "courseTitle": "Neural Networks and Applications",
+      "credits": 3
+    },
+    "BITS F446": {
+      "courseTitle": "Pattern Recognition",
+      "credits": 3
+    },
+    "BITS F447": {
+      "courseTitle": "Multimedia Computing",
+      "credits": 3
+    },
+    "BITS F448": {
+      "courseTitle": "Retail Management Systems",
+      "credits": 3
+    },
+    "BITS F449": {
+      "courseTitle": "Financial Engineering",
+      "credits": 3
+    },
+    "BITS F461": {
+      "courseTitle": "Software Engineering",
+      "credits": 3
+    },
+    "BITS F468": {
+      "courseTitle": "New Venture Creation",
+      "credits": 3
+    },
+    "BITS F469": {
+      "courseTitle": "Financing Infrastructure Projects",
+      "credits": 3
+    },
+    "BITS F482": {
+      "courseTitle": "Creating and Leading Entrepreneurial Organisations",
+      "credits": 3
+    },
+    "BITS F488": {
+      "courseTitle": "Services Management Systems",
+      "credits": 3
+    },
+    "BITS F489": {
+      "courseTitle": "Enterprise Resource Planning",
+      "credits": 3
+    },
+    "BITS F490": {
+      "courseTitle": "Project Management",
+      "credits": 4
+    },
+    "BITS F493": {
+      "courseTitle": "Business Analysis and Valuation",
+      "credits": 3
+    },
+    "BITS F494": {
+      "courseTitle": "Environmental Impact Assessment",
+      "credits": 4
+    },
+    "BITS G516": {
+      "courseTitle": "Introduction to Business Sustainability",
+      "credits": 3
+    },
+    "BITS G517": {
+      "courseTitle": "Cross Cultural Management",
+      "credits": 3
+    },
+    "CHE F211": {
+      "courseTitle": "Chemical Process Calculations",
+      "credits": 3
+    },
+    "CHE F212": {
+      "courseTitle": "Fluid Mechanics",
+      "credits": 3
+    },
+    "CHE F213": {
+      "courseTitle": "Chemical Engineering Thermodynamics",
+      "credits": 3
+    },
+    "CHE F214": {
+      "courseTitle": "Engineering Chemistry",
+      "credits": 3
+    },
+    "CHE F241": {
+      "courseTitle": "Heat Transfer",
+      "credits": 3
+    },
+    "CHE F242": {
+      "courseTitle": "Numerical Methods for Chemical Engineers",
+      "credits": 3
+    },
+    "CHE F243": {
+      "courseTitle": "Material Science and Engineering",
+      "credits": 3
+    },
+    "CHE F244": {
+      "courseTitle": "Separation Processes I",
+      "credits": 3
+    },
+    "CHE F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "CHE F311": {
+      "courseTitle": "Kinetics and Reactor Design",
+      "credits": 3
+    },
+    "CHE F312": {
+      "courseTitle": "Chemical Engineering Lab I",
+      "credits": 3
+    },
+    "CHE F313": {
+      "courseTitle": "Separation Processes II",
+      "credits": 3
+    },
+    "CHE F314": {
+      "courseTitle": "Process Design Principles I",
+      "credits": 3
+    },
+    "CHE F341": {
+      "courseTitle": "Chemical Engineering Lab II",
+      "credits": 3
+    },
+    "CHE F342": {
+      "courseTitle": "Process Dynamics and Control",
+      "credits": 3
+    },
+    "CHE F343": {
+      "courseTitle": "Process Design Principles II",
+      "credits": 3
+    },
+    "CHE F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "CHE F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "CHE F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "CHE F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "CHE F315": {
+      "courseTitle": "Machine Learning for Chemical Engineers",
+      "credits": 3
+    },
+    "CHE F411": {
+      "courseTitle": "Environmental Pollution Control",
+      "credits": 3
+    },
+    "CHE F412": {
+      "courseTitle": "Process Equipment Design",
+      "credits": 3
+    },
+    "CHE F413": {
+      "courseTitle": "Process Plant Safety",
+      "credits": 3
+    },
+    "CHE F414": {
+      "courseTitle": "Transport Phenomena",
+      "credits": 3
+    },
+    "CHE F415": {
+      "courseTitle": "Molecular and Statistical Thermodynamics",
+      "credits": 3
+    },
+    "CHE F416": {
+      "courseTitle": "Process Plant Design Project I",
+      "credits": 3
+    },
+    "CHE F417": {
+      "courseTitle": "Process Plant Design Project II",
+      "credits": 3
+    },
+    "CHE F418": {
+      "courseTitle": "Modelling and Simulation in Chemical Engineering",
+      "credits": 3
+    },
+    "CHE F419": {
+      "courseTitle": "Chemical Process Technology",
+      "credits": 3
+    },
+    "CHE F421": {
+      "courseTitle": "Bio-chemical Engineering",
+      "credits": 3
+    },
+    "CHE F422": {
+      "courseTitle": "Petroleum Refining Technology",
+      "credits": 3
+    },
+    "CHE F423": {
+      "courseTitle": "Membrane Science and Engineering",
+      "credits": 3
+    },
+    "CHE F424": {
+      "courseTitle": "Rheology of Complex Fluids",
+      "credits": 3
+    },
+    "CHE F433": {
+      "courseTitle": "Corrosion Engineering",
+      "credits": 3
+    },
+    "CHE F471": {
+      "courseTitle": "Advanced Process Control",
+      "credits": 3
+    },
+    "CHE F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "CHE F497": {
+      "courseTitle": "Atomic and Molecular Simulations",
+      "credits": 3
+    },
+    "CHE F498": {
+      "courseTitle": "Colloids and Interface Engineering",
+      "credits": 3
+    },
+    "CHE G511": {
+      "courseTitle": "Fluidization Engineering",
+      "credits": 4
+    },
+    "CHE G512": {
+      "courseTitle": "Petroleum Refining and Petrochemicals",
+      "credits": 4
+    },
+    "CHE G513": {
+      "courseTitle": "Environmental Management Systems",
+      "credits": 5
+    },
+    "CHE G522": {
+      "courseTitle": "Polymer Technology",
+      "credits": 4
+    },
+    "CHE G523": {
+      "courseTitle": "Mathematical Methods in Chemical Engineering",
+      "credits": 5
+    },
+    "CHE G524": {
+      "courseTitle": "Introduction to Multiphase flow",
+      "credits": 4
+    },
+    "CHE G526": {
+      "courseTitle": "Nuclear Engineering",
+      "credits": 4
+    },
+    "CHE G527": {
+      "courseTitle": "Energy Conservation and Management",
+      "credits": 4
+    },
+    "CHE G528": {
+      "courseTitle": "Introduction to Nanoscience & Technology",
+      "credits": 4
+    },
+    "CHE G529": {
+      "courseTitle": "Pulp & Paper Technology",
+      "credits": 4
+    },
+    "CHE G532": {
+      "courseTitle": "Alternate Energy Resources",
+      "credits": 4
+    },
+    "CHE G533": {
+      "courseTitle": "Petroleum Product Characterization",
+      "credits": 5
+    },
+    "CHE G551": {
+      "courseTitle": "Advanced Separation Technology",
+      "credits": 5
+    },
+    "CHE G552": {
+      "courseTitle": "Advanced Transport Phenomena",
+      "credits": 5
+    },
+    "CHE G554": {
+      "courseTitle": "Computational Fluid Dynamics",
+      "credits": 4
+    },
+    "CHE G556": {
+      "courseTitle": "Electrochemical Engineering",
+      "credits": 4
+    },
+    "CHE G557": {
+      "courseTitle": "Energy Systems Engineering",
+      "credits": 4
+    },
+    "CHE G558": {
+      "courseTitle": "Chemical Process Optimization",
+      "credits": 4
+    },
+    "CHE G568": {
+      "courseTitle": "Modeling and Simulation in Petroleum Refining",
+      "credits": 4
+    },
+    "CHE G613": {
+      "courseTitle": "Advanced Mass Transfer",
+      "credits": 5
+    },
+    "CHE G614": {
+      "courseTitle": "Advanced Heat Transfer",
+      "credits": 5
+    },
+    "CHE G616": {
+      "courseTitle": "Petroleum Reservoir Engineering",
+      "credits": 5
+    },
+    "CHE G617": {
+      "courseTitle": "Petroleum Refinery Engg.",
+      "credits": 5
+    },
+    "CHE G618": {
+      "courseTitle": "Petroleum Downstream Processing",
+      "credits": 5
+    },
+    "CHE G619": {
+      "courseTitle": "Process Intensification",
+      "credits": 5
+    },
+    "CHE G620": {
+      "courseTitle": "Energy Integration Analysis",
+      "credits": 4
+    },
+    "CHE G622": {
+      "courseTitle": "Advanced Chemical Engineering Thermodynamics",
+      "credits": 5
+    },
+    "CHE G641": {
+      "courseTitle": "Reaction Engineering",
+      "credits": 5
+    },
+    "CHEM F211": {
+      "courseTitle": "Physical Chemistry I",
+      "credits": 3
+    },
+    "CHEM F212": {
+      "courseTitle": "Organic Chemistry I",
+      "credits": 3
+    },
+    "CHEM F213": {
+      "courseTitle": "Physical Chemistry II",
+      "credits": 3
+    },
+    "CHEM F214": {
+      "courseTitle": "Inorganic Chemistry I",
+      "credits": 3
+    },
+    "CHEM F223": {
+      "courseTitle": "Colloid and Surface Chemistry",
+      "credits": 3
+    },
+    "CHEM F241": {
+      "courseTitle": "Inorganic Chemistry II",
+      "credits": 3
+    },
+    "CHEM F242": {
+      "courseTitle": "Chemical Experimentation I",
+      "credits": 3
+    },
+    "CHEM F243": {
+      "courseTitle": "Organic Chemistry II",
+      "credits": 3
+    },
+    "CHEM F244": {
+      "courseTitle": "Physical Chemistry III",
+      "credits": 3
+    },
+    "CHEM F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "CHEM F311": {
+      "courseTitle": "Organic Chemistry III",
+      "credits": 3
+    },
+    "CHEM F312": {
+      "courseTitle": "Physical Chemistry IV",
+      "credits": 3
+    },
+    "CHEM F313": {
+      "courseTitle": "Instrumental Methods of Analysis",
+      "credits": 4
+    },
+    "CHEM F341": {
+      "courseTitle": "Chemical Experimentation II",
+      "credits": 4
+    },
+    "CHEM F342": {
+      "courseTitle": "Organic Chemistry IV",
+      "credits": 3
+    },
+    "CHEM F343": {
+      "courseTitle": "Inorganic Chemistry III",
+      "credits": 3
+    },
+    "CHEM F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "CHEM F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "CHEM F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "CHEM F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "CHEM F320": {
+      "courseTitle": "Introductory Computational Chemistry Laboratory",
+      "credits": 2
+    },
+    "CHEM F323": {
+      "courseTitle": "Biophysical Chemistry",
+      "credits": 3
+    },
+    "CHEM F324": {
+      "courseTitle": "Numerical Methods in Chemistry",
+      "credits": 4
+    },
+    "CHEM F325": {
+      "courseTitle": "Polymer Chemistry",
+      "credits": 3
+    },
+    "CHEM F326": {
+      "courseTitle": "Solid State Chemistry",
+      "credits": 3
+    },
+    "CHEM F327": {
+      "courseTitle": "Electrochemistry: Fundamentals and Applications",
+      "credits": 3
+    },
+    "CHEM F328": {
+      "courseTitle": "Supramolecular Chemistry",
+      "credits": 3
+    },
+    "CHEM F329": {
+      "courseTitle": "Analytical Chemistry",
+      "credits": 4
+    },
+    "CHEM F330": {
+      "courseTitle": "Photophysical Chemistry",
+      "credits": 4
+    },
+    "CHEM F333": {
+      "courseTitle": "Chemistry of Materials",
+      "credits": 3
+    },
+    "CHEM F334": {
+      "courseTitle": "Magnetic Resonance",
+      "credits": 3
+    },
+    "CHEM F335": {
+      "courseTitle": "Organic Chemistry and Drug Design",
+      "credits": 3
+    },
+    "CHEM F336": {
+      "courseTitle": "Nanochemistry",
+      "credits": 4
+    },
+    "CHEM F337": {
+      "courseTitle": "Green Chemistry and Catalysis",
+      "credits": 3
+    },
+    "CHEM F412": {
+      "courseTitle": "Photochemistry and Laser Spectroscopy",
+      "credits": 3
+    },
+    "CHEM F413": {
+      "courseTitle": "Electron Correlation In Atoms And Molecules",
+      "credits": 4
+    },
+    "CHEM F414": {
+      "courseTitle": "Bio and Chemical Sensors",
+      "credits": 3
+    },
+    "CHEM F415": {
+      "courseTitle": "Frontiers in Organic Synthesis",
+      "credits": 3
+    },
+    "CHEM F416": {
+      "courseTitle": "Applied Crystallography",
+      "credits": 3
+    },
+    "CHEM F422": {
+      "courseTitle": "Statistical Thermodynamics",
+      "credits": 3
+    },
+    "CHEM F423": {
+      "courseTitle": "Astrochemistry",
+      "credits": 3
+    },
+    "CHEM F430": {
+      "courseTitle": "Atmospheric Chemistry",
+      "credits": 3
+    },
+    "CHEM F431": {
+      "courseTitle": "Sustainable Chemistry using Renewables",
+      "credits": 3
+    },
+    "CHEM F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "CHEM G521": {
+      "courseTitle": "Environmental Chemistry",
+      "credits": 5
+    },
+    "ECE F422": {
+      "courseTitle": "Modern Control Systems",
+      "credits": 3
+    },
+    "ECE F211": {
+      "courseTitle": "Electrical Machines",
+      "credits": 4
+    },
+    "ECE F212": {
+      "courseTitle": "Electromagnetic Theory",
+      "credits": 3
+    },
+    "ECE F214": {
+      "courseTitle": "Electronic Devices",
+      "credits": 3
+    },
+    "ECE F215": {
+      "courseTitle": "Digital Design",
+      "credits": 4
+    },
+    "ECE F241": {
+      "courseTitle": "Microprocessors and Interfacing",
+      "credits": 4
+    },
+    "ECE F242": {
+      "courseTitle": "Control Systems",
+      "credits": 3
+    },
+    "ECE F243": {
+      "courseTitle": "Signals & Systems",
+      "credits": 3
+    },
+    "ECE F244": {
+      "courseTitle": "Microelectronic Circuits",
+      "credits": 3
+    },
+    "EEE F314": {
+      "courseTitle": "FGPA Lab",
+      "credits": 3
+    },
+    "INSTR F314": {
+      "courseTitle": "FGPA Lab",
+      "credits": 3
+    },
+    "ECE F314": {
+      "courseTitle": "FGPA Lab",
+      "credits": 3
+    },
+    "ECE F331": {
+      "courseTitle": "Microwave Engineering",
+      "credits": 4
+    },
+    "ECE F341": {
+      "courseTitle": "Analog Electronics",
+      "credits": 4
+    },
+    "ECE F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "ECE F311": {
+      "courseTitle": "Communication Systems",
+      "credits": 4
+    },
+    "ECE F343": {
+      "courseTitle": "Communication Networks",
+      "credits": 3
+    },
+    "ECE F344": {
+      "courseTitle": "Information Theory & Coding",
+      "credits": 3
+    },
+    "ECE F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "ECE F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "ECE F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "ECE F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "ECE F434": {
+      "courseTitle": "Digital Signal Processing",
+      "credits": 4
+    },
+    "ECE F438": {
+      "courseTitle": "Electric Vehicles",
+      "credits": 3
+    },
+    "EEE F438": {
+      "courseTitle": "Electric Vehicles",
+      "credits": 3
+    },
+    "INSTR F438": {
+      "courseTitle": "Electric Vehicles",
+      "credits": 3
+    },
+    "ECE F216": {
+      "courseTitle": "Electronic Devices Simulation Laboratory",
+      "credits": 2
+    },
+    "ECE F312": {
+      "courseTitle": "EM Fields and Microwave Engineering Laboratory",
+      "credits": 1
+    },
+    "ECE F414": {
+      "courseTitle": "Telecommunication Switching Systems & Networks",
+      "credits": 3
+    },
+    "ECE F416": {
+      "courseTitle": "Digital Communication",
+      "credits": 3
+    },
+    "ECE F418": {
+      "courseTitle": "Modern Communication Technologies",
+      "credits": 3
+    },
+    "ECE F424": {
+      "courseTitle": "Smart Grid for Sustainable Energy",
+      "credits": 3
+    },
+    "ECE F428": {
+      "courseTitle": "Energy Storage Systems",
+      "credits": 3
+    },
+    "ECE F431": {
+      "courseTitle": "Mobile Telecommunication Networks",
+      "credits": 3
+    },
+    "ECE F472": {
+      "courseTitle": "Satellite Communication",
+      "credits": 3
+    },
+    "ECE F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "ECON F211": {
+      "courseTitle": "Principles of Economics",
+      "credits": 3
+    },
+    "ECON F212": {
+      "courseTitle": "Fundamentals of Finance and Accounts",
+      "credits": 3
+    },
+    "ECON F213": {
+      "courseTitle": "Mathematical and Statistical Methods",
+      "credits": 3
+    },
+    "ECON F214": {
+      "courseTitle": "Economic Environment of Business",
+      "credits": 3
+    },
+    "ECON F241": {
+      "courseTitle": "Econometric Methods",
+      "credits": 3
+    },
+    "ECON F242": {
+      "courseTitle": "Microeconomics",
+      "credits": 3
+    },
+    "ECON F243": {
+      "courseTitle": "Macroeconomics",
+      "credits": 3
+    },
+    "ECON F244": {
+      "courseTitle": "Economics of Growth and Development",
+      "credits": 3
+    },
+    "ECON F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "ECON F311": {
+      "courseTitle": "International Economics",
+      "credits": 3
+    },
+    "ECON F312": {
+      "courseTitle": "Money, Banking and Financial Markets",
+      "credits": 3
+    },
+    "ECON F313": {
+      "courseTitle": "Issues in Economic Development",
+      "credits": 3
+    },
+    "ECON F341": {
+      "courseTitle": "Public Finance Theory and Policy",
+      "credits": 3
+    },
+    "ECON F342": {
+      "courseTitle": "Applied Econometrics",
+      "credits": 3
+    },
+    "ECON F343": {
+      "courseTitle": "Economic Analysis of Public Policy",
+      "credits": 3
+    },
+    "ECON F344": {
+      "courseTitle": "Models in Operations Management",
+      "credits": 3
+    },
+    "ECON F215": {
+      "courseTitle": "Computational Methods for Economics",
+      "credits": 3
+    },
+    "ECON F315": {
+      "courseTitle": "Financial Management",
+      "credits": 3
+    },
+    "ECON F314": {
+      "courseTitle": "Industrial Economics",
+      "credits": 3
+    },
+    "ECON F345": {
+      "courseTitle": "Behavioral Economics",
+      "credits": 3
+    },
+    "ECON F351": {
+      "courseTitle": "Indian Economic Development",
+      "credits": 3
+    },
+    "ECON F352": {
+      "courseTitle": "Management of Banks and Financial Institutions",
+      "credits": 3
+    },
+    "ECON F353": {
+      "courseTitle": "Energy Economics and Policy",
+      "credits": 3
+    },
+    "ECON F354": {
+      "courseTitle": "Derivatives and Risk Management",
+      "credits": 3
+    },
+    "ECON F355": {
+      "courseTitle": "Business Analysis and Valuation",
+      "credits": 3
+    },
+    "ECON F356": {
+      "courseTitle": "Strategic Financial Management",
+      "credits": 3
+    },
+    "ECON F357": {
+      "courseTitle": "Management Control System",
+      "credits": 3
+    },
+    "ECON F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "ECON F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "ECON F411": {
+      "courseTitle": "Project Appraisal",
+      "credits": 3
+    },
+    "ECON F412": {
+      "courseTitle": "Security Analysis and Portfolio Management",
+      "credits": 3
+    },
+    "ECON F413": {
+      "courseTitle": "Financial Engineering",
+      "credits": 3
+    },
+    "ECON F414": {
+      "courseTitle": "Creating and Leading Entrepreneurial Organizations",
+      "credits": 3
+    },
+    "ECON F415": {
+      "courseTitle": "New Venture Creation",
+      "credits": 3
+    },
+    "ECON F416": {
+      "courseTitle": "Regional Economics",
+      "credits": 3
+    },
+    "ECON F417": {
+      "courseTitle": "Risk Management and Insurance",
+      "credits": 3
+    },
+    "ECON F418": {
+      "courseTitle": "Quantitative Analysis of International Trade",
+      "credits": 3
+    },
+    "ECON F419": {
+      "courseTitle": "Advanced Microeconomics",
+      "credits": 3
+    },
+    "ECON F420": {
+      "courseTitle": "Applied Macroeconometrics",
+      "credits": 3
+    },
+    "ECON F422": {
+      "courseTitle": "Functions and Working of Stock Exchanges",
+      "credits": 3
+    },
+    "ECON F434": {
+      "courseTitle": "International Business",
+      "credits": 3
+    },
+    "ECON F435": {
+      "courseTitle": "Marketing Research",
+      "credits": 3
+    },
+    "ECON F471": {
+      "courseTitle": "Resources and Environmental Economics",
+      "credits": 3
+    },
+    "ECON F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "FIN F211": {
+      "courseTitle": "Financial Management",
+      "credits": 3
+    },
+    "FIN F212": {
+      "courseTitle": "Fundamentals of Finance and Accounts",
+      "credits": 3
+    },
+    "FIN F213": {
+      "courseTitle": "Mathematical and Statistical Methods",
+      "credits": 3
+    },
+    "FIN F214": {
+      "courseTitle": "Economic Environment of Business",
+      "credits": 3
+    },
+    "FIN F242": {
+      "courseTitle": "Introduction to Financial Mathematics",
+      "credits": 3
+    },
+    "FIN F243": {
+      "courseTitle": "Functions and Working of Stock Exchanges",
+      "credits": 3
+    },
+    "FIN F244": {
+      "courseTitle": "Indian Financial System",
+      "credits": 3
+    },
+    "FIN F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "FIN F311": {
+      "courseTitle": "Derivatives and Risk Management",
+      "credits": 3
+    },
+    "FIN F312": {
+      "courseTitle": "Fundamental of Taxation and Audit",
+      "credits": 3
+    },
+    "FIN F313": {
+      "courseTitle": "Security Analysis and Portfolio Management",
+      "credits": 3
+    },
+    "FIN F314": {
+      "courseTitle": "Investment Banking and Financial Services",
+      "credits": 3
+    },
+    "FIN F315": {
+      "courseTitle": "Financial Management",
+      "credits": 3
+    },
+    "FIN F341": {
+      "courseTitle": "International Financial Markets and Services",
+      "credits": 3
+    },
+    "FIN F342": {
+      "courseTitle": "Project Finance",
+      "credits": 3
+    },
+    "FIN F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "FIN F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "FIN F414": {
+      "courseTitle": "Financial Risk Analytics and Risk Management",
+      "credits": 3
+    },
+    "FIN F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "GS F211": {
+      "courseTitle": "Modern Political Concepts",
+      "credits": 3
+    },
+    "GS F212": {
+      "courseTitle": "Environment, Development & Climate Change",
+      "credits": 3
+    },
+    "GS F213": {
+      "courseTitle": "Development Theories",
+      "credits": 3
+    },
+    "GS F345": {
+      "courseTitle": "Constitution of India",
+      "credits": 3
+    },
+    "GS F221": {
+      "courseTitle": "Business Communication",
+      "credits": 3
+    },
+    "GS F222": {
+      "courseTitle": "Language Lab Practice",
+      "credits": 3
+    },
+    "GS F223": {
+      "courseTitle": "Introduction to Mass Communication",
+      "credits": 3
+    },
+    "GS F224": {
+      "courseTitle": "Print and Audio Visual Advertising",
+      "credits": 3
+    },
+    "GS F231": {
+      "courseTitle": "Dynamics of Social Change",
+      "credits": 3
+    },
+    "GS F232": {
+      "courseTitle": "Introductory Psychology",
+      "credits": 3
+    },
+    "HSS F386": {
+      "courseTitle": "Ocean Humanities",
+      "credits": 3
+    },
+    "HSS F388": {
+      "courseTitle": "Gandhi in Literature",
+      "credits": 3
+    },
+    "GS F233": {
+      "courseTitle": "Public Policy",
+      "credits": 3
+    },
+    "GS F234": {
+      "courseTitle": "Development Economics",
+      "credits": 3
+    },
+    "GS F241": {
+      "courseTitle": "Creative Writing",
+      "credits": 3
+    },
+    "GS F242": {
+      "courseTitle": "Cultural Studies",
+      "credits": 3
+    },
+    "GS F342": {
+      "courseTitle": "Computer Mediated Communication",
+      "credits": 3
+    },
+    "GS F243": {
+      "courseTitle": "Current Affairs",
+      "credits": 3
+    },
+    "GS F244": {
+      "courseTitle": "Reporting and Writing for Media",
+      "credits": 3
+    },
+    "GS F245": {
+      "courseTitle": "Effective Public Speaking",
+      "credits": 3
+    },
+    "GS F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "GS F321": {
+      "courseTitle": "Mass Media Content and Design",
+      "credits": 3
+    },
+    "GS F322": {
+      "courseTitle": "Critical Analysis of Literature and Cinema",
+      "credits": 3
+    },
+    "GS F311": {
+      "courseTitle": "Introduction to Conflict Management",
+      "credits": 3
+    },
+    "GS F312": {
+      "courseTitle": "Applied Philosophy",
+      "credits": 3
+    },
+    "GS F313": {
+      "courseTitle": "Marxian Thoughts",
+      "credits": 3
+    },
+    "GS F325": {
+      "courseTitle": "Journalism",
+      "credits": 3
+    },
+    "GS F326": {
+      "courseTitle": "Creative Thinking",
+      "credits": 3
+    },
+    "GS F327": {
+      "courseTitle": "Selected Reading",
+      "credits": 3
+    },
+    "GS F331": {
+      "courseTitle": "Techniques in Social Research",
+      "credits": 3
+    },
+    "GS F332": {
+      "courseTitle": "Contemporary India",
+      "credits": 3
+    },
+    "GS F333": {
+      "courseTitle": "Public Administration",
+      "credits": 3
+    },
+    "GS F334": {
+      "courseTitle": "Global Business Technology & Knowledge Sharing",
+      "credits": 3
+    },
+    "EEE F342": {
+      "courseTitle": "Power Electronics",
+      "credits": 3
+    },
+    "GS F343": {
+      "courseTitle": "Short Film and Video Production",
+      "credits": 3
+    },
+    "GS F344": {
+      "courseTitle": "Copywriting",
+      "credits": 2
+    },
+    "GS F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "GS F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "GS F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "HSS F221": {
+      "courseTitle": "Readings from Drama",
+      "credits": 3
+    },
+    "HSS F222": {
+      "courseTitle": "Linguistics",
+      "credits": 3
+    },
+    "HSS F223": {
+      "courseTitle": "Appreciation of Indian Music",
+      "credits": 3
+    },
+    "HSS F226": {
+      "courseTitle": "Postmodernism",
+      "credits": 3
+    },
+    "HSS F227": {
+      "courseTitle": "Cross Cultural Skills",
+      "credits": 3
+    },
+    "HSS F228": {
+      "courseTitle": "Phonetics and Spoken English",
+      "credits": 3
+    },
+    "HSS F229": {
+      "courseTitle": "Introduction to Development Studies",
+      "credits": 3
+    },
+    "HSS F232": {
+      "courseTitle": "Introduction to Development Studies",
+      "credits": 3
+    },
+    "HSS F233": {
+      "courseTitle": "Main Trends in Indian History",
+      "credits": 3
+    },
+    "HSS F234": {
+      "courseTitle": "Main Currents of Modern History",
+      "credits": 3
+    },
+    "HSS F235": {
+      "courseTitle": "Introductory Philosophy",
+      "credits": 3
+    },
+    "HSS F236": {
+      "courseTitle": "Symbolic Logic",
+      "credits": 3
+    },
+    "HSS F237": {
+      "courseTitle": "Contemporary Indian English Fiction",
+      "credits": 3
+    },
+    "HSS F238": {
+      "courseTitle": "Sports and Society",
+      "credits": 3
+    },
+    "HSS F242": {
+      "courseTitle": "Introduction to Phonology",
+      "credits": 3
+    },
+    "HSS F243": {
+      "courseTitle": "Introduction to Pedalogy",
+      "credits": 3
+    },
+    "HSS F244": {
+      "courseTitle": "Crime and New Media",
+      "credits": 3
+    },
+    "HSS F245": {
+      "courseTitle": "Gender, Science and Technology",
+      "credits": 3
+    },
+    "HSS F246": {
+      "courseTitle": "Philosophy of N\u0101g\u0101rjuna",
+      "credits": 3
+    },
+    "HSS F247": {
+      "courseTitle": "Social Informatics",
+      "credits": 3
+    },
+    "HSS F248": {
+      "courseTitle": "Introduction to Disability Studies",
+      "credits": 3
+    },
+    "HSS F249": {
+      "courseTitle": "Politics in India",
+      "credits": 3
+    },
+    "HSS F250": {
+      "courseTitle": "Comics and Visual Culture",
+      "credits": 3
+    },
+    "HSS F251": {
+      "courseTitle": "Introduction to Discourse and Conversational Analysis",
+      "credits": 3
+    },
+    "HSS F252": {
+      "courseTitle": "International Law",
+      "credits": 3
+    },
+    "HSS F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "HSS F311": {
+      "courseTitle": "Introduction to Videogame Studies",
+      "credits": 3
+    },
+    "HSS F313": {
+      "courseTitle": "Introduction to Contemporary Arts",
+      "credits": 3
+    },
+    "HSS F315": {
+      "courseTitle": "Society, Business, and Politics",
+      "credits": 3
+    },
+    "HSS F316": {
+      "courseTitle": "Popular Literature and Culture of South Asia",
+      "credits": 3
+    },
+    "HSS F317": {
+      "courseTitle": "Introduction to Globalization",
+      "credits": 3
+    },
+    "HSS F318": {
+      "courseTitle": "Introduction to Anthropology",
+      "credits": 3
+    },
+    "HSS F319": {
+      "courseTitle": "Lighting for Theatre and Films",
+      "credits": 2
+    },
+    "HSS F322": {
+      "courseTitle": "Social and Political Ecology",
+      "credits": 3
+    },
+    "HSS F323": {
+      "courseTitle": "Organizational Psychology",
+      "credits": 3
+    },
+    "HSS F325": {
+      "courseTitle": "Cinematic Adaptation",
+      "credits": 3
+    },
+    "HSS F326": {
+      "courseTitle": "Humanities and Design",
+      "credits": 3
+    },
+    "HSS F327": {
+      "courseTitle": "Contemporary Drama",
+      "credits": 3
+    },
+    "HSS F328": {
+      "courseTitle": "Human Resource Development",
+      "credits": 3
+    },
+    "HSS F329": {
+      "courseTitle": "Musicology \u2013 An \u2013 Introduction",
+      "credits": 3
+    },
+    "HSS F330": {
+      "courseTitle": "Appreciation of Art",
+      "credits": 3
+    },
+    "HSS F331": {
+      "courseTitle": "Sankara\u2019s Thoughts",
+      "credits": 3
+    },
+    "HSS F332": {
+      "courseTitle": "Cinematic Art",
+      "credits": 3
+    },
+    "HSS F333": {
+      "courseTitle": "Comparative Religion",
+      "credits": 3
+    },
+    "HSS F334": {
+      "courseTitle": "Srimad Bhagavad Gita",
+      "credits": 3
+    },
+    "HSS F335": {
+      "courseTitle": "Literary Criticism",
+      "credits": 3
+    },
+    "HSS F336": {
+      "courseTitle": "Modern Fiction",
+      "credits": 3
+    },
+    "HSS F337": {
+      "courseTitle": "English Literary Forms and Movements",
+      "credits": 3
+    },
+    "HSS F338": {
+      "courseTitle": "Comparative Indian Literature",
+      "credits": 3
+    },
+    "HSS F339": {
+      "courseTitle": "Theatre Art Acting and Production",
+      "credits": 3
+    },
+    "HSS F340": {
+      "courseTitle": "Post Colonial Literatures",
+      "credits": 3
+    },
+    "HSS F341": {
+      "courseTitle": "Performance Design",
+      "credits": 3
+    },
+    "HSS F342": {
+      "courseTitle": "Advanced Communicative English",
+      "credits": 3
+    },
+    "HSS F343": {
+      "courseTitle": "Professional Ethics",
+      "credits": 3
+    },
+    "HSS F344": {
+      "courseTitle": "Heritage of India",
+      "credits": 3
+    },
+    "HSS F345": {
+      "courseTitle": "Gandhian Thoughts",
+      "credits": 3
+    },
+    "HSS F346": {
+      "courseTitle": "International Relations",
+      "credits": 3
+    },
+    "HSS F347": {
+      "courseTitle": "Introduction to Carnatic Music",
+      "credits": 3
+    },
+    "HSS F348": {
+      "courseTitle": "Introduction to Hindustani Music",
+      "credits": 3
+    },
+    "HSS F349": {
+      "courseTitle": "Ecocriticism",
+      "credits": 3
+    },
+    "HSS F350": {
+      "courseTitle": "Human Rights: History, Theory & Practice",
+      "credits": 3
+    },
+    "HSS F351": {
+      "courseTitle": "Social and Political Ecology",
+      "credits": 3
+    },
+    "HSS F352": {
+      "courseTitle": "Technology, Work and Society",
+      "credits": 3
+    },
+    "HSS F353": {
+      "courseTitle": "Philosophy of Aesthetics",
+      "credits": 3
+    },
+    "HSS F354": {
+      "courseTitle": "Introduction to Islamic Economy",
+      "credits": 3
+    },
+    "HSS F355": {
+      "courseTitle": "Dictatorship, Democracy & Development",
+      "credits": 3
+    },
+    "HSS F356": {
+      "courseTitle": "Social Movements and Protest Politics",
+      "credits": 3
+    },
+    "HSS F361": {
+      "courseTitle": "Urban Policy and Governance",
+      "credits": 3
+    },
+    "HSS F362": {
+      "courseTitle": "Local Governance and Participation",
+      "credits": 3
+    },
+    "HSS F363": {
+      "courseTitle": "Disaster and Development",
+      "credits": 3
+    },
+    "HSS F364": {
+      "courseTitle": "Political Economy of Gulf Cooperation Council States",
+      "credits": 3
+    },
+    "HSS F365": {
+      "courseTitle": "Science of Sustainable Happiness",
+      "credits": 3
+    },
+    "HSS F368": {
+      "courseTitle": "Asian Cinemas and Cultures",
+      "credits": 3
+    },
+    "HSS F369": {
+      "courseTitle": "Caste and Gender in India",
+      "credits": 3
+    },
+    "HSS F371": {
+      "courseTitle": "Cities-Life, Issues and Conflicts",
+      "credits": 3
+    },
+    "HSS F372": {
+      "courseTitle": "Introduction to Social Psychology",
+      "credits": 3
+    },
+    "HSS F373": {
+      "courseTitle": "Shakespeare and Popular Culture",
+      "credits": 3
+    },
+    "HSS F374": {
+      "courseTitle": "Urban Modernity and the Renewal of Paris",
+      "credits": 3
+    },
+    "HSS F375": {
+      "courseTitle": "Business and Politics in Colonial and Post Colonial India: a historical approach",
+      "credits": 3
+    },
+    "HSS F385": {
+      "courseTitle": "Mental Health Literacy for Youth",
+      "credits": 3
+    },
+    "HSS F378": {
+      "courseTitle": "Cinemas of India: From Past to Present",
+      "credits": 3
+    },
+    "HSS F399": {
+      "courseTitle": "Introduction to American Literature",
+      "credits": 3
+    },
+    "INSTR F211": {
+      "courseTitle": "Electrical Machines",
+      "credits": 4
+    },
+    "INSTR F212": {
+      "courseTitle": "Electromagnetic Theory",
+      "credits": 3
+    },
+    "INSTR F214": {
+      "courseTitle": "Electronic Devices",
+      "credits": 3
+    },
+    "INSTR F215": {
+      "courseTitle": "Digital Design",
+      "credits": 4
+    },
+    "INSTR F241": {
+      "courseTitle": "Microprocessors and Interfacing",
+      "credits": 4
+    },
+    "INSTR F242": {
+      "courseTitle": "Control Systems",
+      "credits": 3
+    },
+    "INSTR F243": {
+      "courseTitle": "Signals & Systems",
+      "credits": 3
+    },
+    "INSTR F244": {
+      "courseTitle": "Microelectronic Circuits",
+      "credits": 3
+    },
+    "INSTR F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "INSTR F311": {
+      "courseTitle": "Electronic Instrumentation & Instrumentation Technology",
+      "credits": 4
+    },
+    "INSTR F312": {
+      "courseTitle": "Transducers and Measurement Systems",
+      "credits": 3
+    },
+    "INSTR F313": {
+      "courseTitle": "Analog & Digital VLSI Design",
+      "credits": 3
+    },
+    "INSTR F341": {
+      "courseTitle": "Analog Electronics",
+      "credits": 4
+    },
+    "INSTR F342": {
+      "courseTitle": "Power Electronics",
+      "credits": 4
+    },
+    "INSTR F343": {
+      "courseTitle": "Industrial Instrumentation & Control",
+      "credits": 3
+    },
+    "INSTR F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "INSTR F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "INSTR F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "INSTR F216": {
+      "courseTitle": "Electronic Devices Simulation Laboratory",
+      "credits": 2
+    },
+    "INSTR F411": {
+      "courseTitle": "Opto-Electronic Instruments",
+      "credits": 3
+    },
+    "INSTR F412": {
+      "courseTitle": "Analysis Instrumentation",
+      "credits": 3
+    },
+    "INSTR F413": {
+      "courseTitle": "Advanced Process Control",
+      "credits": 3
+    },
+    "INSTR F414": {
+      "courseTitle": "Telecommunication Switching Systems & Networks",
+      "credits": 3
+    },
+    "INSTR F415": {
+      "courseTitle": "Digital Control",
+      "credits": 3
+    },
+    "INSTR F419": {
+      "courseTitle": "Virtual Instrumentation",
+      "credits": 4
+    },
+    "INSTR F420": {
+      "courseTitle": "Design of Instrumentation Systems",
+      "credits": 3
+    },
+    "INSTR F422": {
+      "courseTitle": "Instrumentation for Petrochemical Industry",
+      "credits": 3
+    },
+    "INSTR F424": {
+      "courseTitle": "Smart Grid for Sustainable Energy",
+      "credits": 3
+    },
+    "INSTR F428": {
+      "courseTitle": "Energy Storage Systems",
+      "credits": 3
+    },
+    "INSTR F429": {
+      "courseTitle": "Smart Materials and Applications",
+      "credits": 4
+    },
+    "INSTR F430": {
+      "courseTitle": "Green Communications and Networks",
+      "credits": 3
+    },
+    "INSTR F432": {
+      "courseTitle": "Medical Instrumentation",
+      "credits": 3
+    },
+    "INSTR F473": {
+      "courseTitle": "Wind Electrical Systems",
+      "credits": 3
+    },
+    "INSTR F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "INSTR G611": {
+      "courseTitle": "Advanced Control Systems",
+      "credits": 5
+    },
+    "IS F211": {
+      "courseTitle": "Data Structures and Algorithms",
+      "credits": 4
+    },
+    "IS F213": {
+      "courseTitle": "Object Oriented Programming",
+      "credits": 4
+    },
+    "IS F214": {
+      "courseTitle": "Logic in Computer Science",
+      "credits": 3
+    },
+    "IS F222": {
+      "courseTitle": "Discrete Structures for Computer Science",
+      "credits": 3
+    },
+    "IS F241": {
+      "courseTitle": "Digital Electronics and Microprocessors",
+      "credits": 4
+    },
+    "IS F242": {
+      "courseTitle": "Computer Organization",
+      "credits": 4
+    },
+    "IS F243": {
+      "courseTitle": "Database System and Application",
+      "credits": 4
+    },
+    "IS F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "IS F301": {
+      "courseTitle": "Principles of Programming",
+      "credits": 2
+    },
+    "IS F303": {
+      "courseTitle": "Computer Networks",
+      "credits": 4
+    },
+    "IS F311": {
+      "courseTitle": "Computer Graphics",
+      "credits": 3
+    },
+    "IS F322": {
+      "courseTitle": "Software Testing",
+      "credits": 3
+    },
+    "IS F341": {
+      "courseTitle": "Software Engineering",
+      "credits": 4
+    },
+    "IS F342": {
+      "courseTitle": "Compiler Design",
+      "credits": 3
+    },
+    "IS F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "IS F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "IS F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "IS F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "IS F372": {
+      "courseTitle": "Operating Systems",
+      "credits": 3
+    },
+    "IS F462": {
+      "courseTitle": "Network Programming",
+      "credits": 3
+    },
+    "IS F491": {
+      "courseTitle": "Special Project",
+      "credits": 3
+    },
+    "MAC F211": {
+      "courseTitle": "Linear Algebra and Applications",
+      "credits": 3
+    },
+    "MAC F212": {
+      "courseTitle": "Object Oriented Programming",
+      "credits": 4
+    },
+    "MAC F213": {
+      "courseTitle": "Discrete Mathematics",
+      "credits": 3
+    },
+    "MAC F214": {
+      "courseTitle": "Elementary Real Analysis",
+      "credits": 3
+    },
+    "MAC F241": {
+      "courseTitle": "Numerical Analysis",
+      "credits": 3
+    },
+    "MAC F242": {
+      "courseTitle": "Data Structures & Algorithms",
+      "credits": 3
+    },
+    "MAC F243": {
+      "courseTitle": "Numerical Optimization",
+      "credits": 3
+    },
+    "MAC F244": {
+      "courseTitle": "Stochastic Calculus and Application to Finance",
+      "credits": 3
+    },
+    "MAC F245": {
+      "courseTitle": "Scientific Computing Laboratory",
+      "credits": 1
+    },
+    "MAC F311": {
+      "courseTitle": "Algebra I",
+      "credits": 3
+    },
+    "MAC F312": {
+      "courseTitle": "Foundations of Data Science",
+      "credits": 3
+    },
+    "MAC F313": {
+      "courseTitle": "Statistical Data Analysis",
+      "credits": 4
+    },
+    "MAC F314": {
+      "courseTitle": "Mathematical Modelling",
+      "credits": 4
+    },
+    "MAC F341": {
+      "courseTitle": "Design and Analysis of Algorithms",
+      "credits": 3
+    },
+    "MAC F342": {
+      "courseTitle": "Computations Partial Differential Equations",
+      "credits": 4
+    },
+    "MATH F211": {
+      "courseTitle": "Mathematics III",
+      "credits": 3
+    },
+    "MATH F212": {
+      "courseTitle": "Optimization",
+      "credits": 3
+    },
+    "MATH F213": {
+      "courseTitle": "Discrete Mathematics",
+      "credits": 3
+    },
+    "MATH F214": {
+      "courseTitle": "Elementary Real Analysis",
+      "credits": 3
+    },
+    "MATH F215": {
+      "courseTitle": "Algebra I",
+      "credits": 3
+    },
+    "MATH F241": {
+      "courseTitle": "Mathematical Methods",
+      "credits": 3
+    },
+    "MATH F242": {
+      "courseTitle": "Operations Research",
+      "credits": 3
+    },
+    "MATH F243": {
+      "courseTitle": "Graphs and Networks",
+      "credits": 3
+    },
+    "MATH F244": {
+      "courseTitle": "Measure & Integration",
+      "credits": 3
+    },
+    "MATH F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "MATH F311": {
+      "courseTitle": "Introduction to Topology",
+      "credits": 3
+    },
+    "MATH F312": {
+      "courseTitle": "Ordinary Differential Equations",
+      "credits": 3
+    },
+    "MATH F313": {
+      "courseTitle": "Numerical Analysis",
+      "credits": 3
+    },
+    "MATH F314": {
+      "courseTitle": "Algebra II",
+      "credits": 3
+    },
+    "MATH F341": {
+      "courseTitle": "Introduction to Functional Analysis",
+      "credits": 3
+    },
+    "MATH F342": {
+      "courseTitle": "Differential Geometry",
+      "credits": 3
+    },
+    "MATH F343": {
+      "courseTitle": "Partial Differential Equations",
+      "credits": 3
+    },
+    "MATH F344": {
+      "courseTitle": "Mathematical Fluid Dynamics",
+      "credits": 3
+    },
+    "MATH F231": {
+      "courseTitle": "Number Theory",
+      "credits": 3
+    },
+    "MATH F315": {
+      "courseTitle": "Introduction to Statistical Inference",
+      "credits": 3
+    },
+    "MATH F316": {
+      "courseTitle": "Matrix Theory and Linear Estimation",
+      "credits": 4
+    },
+    "MATH F317": {
+      "courseTitle": "Sampling Theory",
+      "credits": 4
+    },
+    "MATH F353": {
+      "courseTitle": "Statistical Inference and Applications",
+      "credits": 3
+    },
+    "MATH F354": {
+      "courseTitle": "Complex Analysis",
+      "credits": 3
+    },
+    "MATH F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "MATH F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "MATH F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "MATH F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "MATH F378": {
+      "courseTitle": "Advanced Probability Theory",
+      "credits": 3
+    },
+    "MATH F420": {
+      "courseTitle": "Mathematical Modeling",
+      "credits": 4
+    },
+    "MATH F421": {
+      "courseTitle": "Combinatorial Mathematics",
+      "credits": 3
+    },
+    "MATH F422": {
+      "courseTitle": "Numerical Methodology for Partial Differential Equations",
+      "credits": 4
+    },
+    "MATH F423": {
+      "courseTitle": "Introduction to Algebraic Topology",
+      "credits": 3
+    },
+    "MATH F424": {
+      "courseTitle": "Applied Stochastic Process",
+      "credits": 4
+    },
+    "MATH F425": {
+      "courseTitle": "Numerical Linear Algebra",
+      "credits": 4
+    },
+    "MATH F426": {
+      "courseTitle": "Mathematical Theory of Finite Element Methods",
+      "credits": 4
+    },
+    "MATH F427": {
+      "courseTitle": "Statistical Simulation and Data Analysis",
+      "credits": 4
+    },
+    "MATH F428": {
+      "courseTitle": "Time Series Analysis and Forecasting",
+      "credits": 4
+    },
+    "MATH F431": {
+      "courseTitle": "Distribution Theory",
+      "credits": 3
+    },
+    "MATH F432": {
+      "courseTitle": "Applied Statistical Methods",
+      "credits": 3
+    },
+    "MATH F441": {
+      "courseTitle": "Discrete Mathematical Structures",
+      "credits": 3
+    },
+    "MATH F444": {
+      "courseTitle": "Numerical Solutions of Ordinary Differential Equations",
+      "credits": 3
+    },
+    "MATH F445": {
+      "courseTitle": "Mathematical Fluid Dynamics",
+      "credits": 3
+    },
+    "MATH F456": {
+      "courseTitle": "Cosmology",
+      "credits": 3
+    },
+    "MATH F471": {
+      "courseTitle": "Nonlinear Optimization",
+      "credits": 3
+    },
+    "MATH F481": {
+      "courseTitle": "Commutative Algebra",
+      "credits": 3
+    },
+    "MATH F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "MATH F492": {
+      "courseTitle": "Wavelet Analysis and Applications",
+      "credits": 4
+    },
+    "ME F211": {
+      "courseTitle": "Mechanics of Solids",
+      "credits": 3
+    },
+    "ME F212": {
+      "courseTitle": "Fluid Mechanics",
+      "credits": 3
+    },
+    "ME F213": {
+      "courseTitle": "Material Science and Engineering",
+      "credits": 2
+    },
+    "ME F214": {
+      "courseTitle": "Applied Thermodynamics",
+      "credits": 3
+    },
+    "ME F215": {
+      "courseTitle": "Mechanical Engineering Laboratory",
+      "credits": 2
+    },
+    "ME F216": {
+      "courseTitle": "Materials Science and Engineering",
+      "credits": 3
+    },
+    "ME F217": {
+      "courseTitle": "Applied Thermodynamics",
+      "credits": 4
+    },
+    "ME F218": {
+      "courseTitle": "Advanced Mechanics of Solids",
+      "credits": 2
+    },
+    "ME F219": {
+      "courseTitle": "Manufacturing Processes",
+      "credits": 4
+    },
+    "ME F220": {
+      "courseTitle": "Heat Transfer",
+      "credits": 4
+    },
+    "ME F221": {
+      "courseTitle": "Mechanisms and Machines",
+      "credits": 3
+    },
+    "ME F241": {
+      "courseTitle": "Machine Design and Drawing",
+      "credits": 4
+    },
+    "ME F242": {
+      "courseTitle": "IC Engines",
+      "credits": 2
+    },
+    "ME F243": {
+      "courseTitle": "Production Techniques I",
+      "credits": 3
+    },
+    "ME F244": {
+      "courseTitle": "Kinematics and Dynamics of Machinery",
+      "credits": 3
+    },
+    "ME F266": {
+      "courseTitle": "Study Projects",
+      "credits": 3
+    },
+    "ME F311": {
+      "courseTitle": "Heat Transfer",
+      "credits": 4
+    },
+    "ME F312": {
+      "courseTitle": "Advanced Mechanics of Solids",
+      "credits": 3
+    },
+    "ME F313": {
+      "courseTitle": "Production Techniques II",
+      "credits": 4
+    },
+    "ME F314": {
+      "courseTitle": "Design of Machine Elements",
+      "credits": 3
+    },
+    "ME F315": {
+      "courseTitle": "Advanced Manufacturing Processes",
+      "credits": 3
+    },
+    "ME F316": {
+      "courseTitle": "Manufacturing Management",
+      "credits": 2
+    },
+    "ME F317": {
+      "courseTitle": "Engines, Motors, and Mobility",
+      "credits": 2
+    },
+    "ME F318": {
+      "courseTitle": "Computer-Aided Design",
+      "credits": 3
+    },
+    "ME F319": {
+      "courseTitle": "Vibrations and Control",
+      "credits": 3
+    },
+    "ME F320": {
+      "courseTitle": "Engineering Optimization",
+      "credits": 3
+    },
+    "ME F341": {
+      "courseTitle": "Prime Movers & Fluid Machines",
+      "credits": 3
+    },
+    "ME F342": {
+      "courseTitle": "Computer Aided Design",
+      "credits": 4
+    },
+    "ME F343": {
+      "courseTitle": "Mechanical Vibrations",
+      "credits": 3
+    },
+    "ME F344": {
+      "courseTitle": "Engineering Optimization",
+      "credits": 2
+    },
+    "ME F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "ME F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "ME F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "ME F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "ME F321": {
+      "courseTitle": "Data Mining in Mechanical Sciences",
+      "credits": 3
+    },
+    "ME F323": {
+      "courseTitle": "Energy Storage Technologies",
+      "credits": 3
+    },
+    "ME F340": {
+      "courseTitle": "Introduction to Sports Engineering",
+      "credits": 3
+    },
+    "ME F411": {
+      "courseTitle": "Fluid Power Systems",
+      "credits": 4
+    },
+    "ME F412": {
+      "courseTitle": "Production Planning and Control",
+      "credits": 3
+    },
+    "ME F413": {
+      "courseTitle": "Nonlinear Vibrations",
+      "credits": 3
+    },
+    "ME F414": {
+      "courseTitle": "Fuel Cell Science and Technology",
+      "credits": 3
+    },
+    "ME F415": {
+      "courseTitle": "Gas Dynamics",
+      "credits": 3
+    },
+    "ME F416": {
+      "courseTitle": "Reverse Engineering and Rapid Prototyping",
+      "credits": 3
+    },
+    "ME F417": {
+      "courseTitle": "Advanced Metal Forming",
+      "credits": 3
+    },
+    "ME F418": {
+      "courseTitle": "Rocket and Spacecraft Propulsion",
+      "credits": 3
+    },
+    "ME F419": {
+      "courseTitle": "Total Product Integration Engg.",
+      "credits": 3
+    },
+    "ME F420": {
+      "courseTitle": "Power Plant Engineering",
+      "credits": 3
+    },
+    "ME F423": {
+      "courseTitle": "Microfluidics and Applications",
+      "credits": 4
+    },
+    "ME F424": {
+      "courseTitle": "Energy Management",
+      "credits": 3
+    },
+    "ME F425": {
+      "courseTitle": "Additive Manufacturing",
+      "credits": 3
+    },
+    "ME F426": {
+      "courseTitle": "Industry 4.0 in Manufacturing",
+      "credits": 3
+    },
+    "ME F427": {
+      "courseTitle": "Continuum Mechanics",
+      "credits": 4
+    },
+    "ME F428": {
+      "courseTitle": "Smart Materials",
+      "credits": 4
+    },
+    "ME F429": {
+      "courseTitle": "Micro-Nanoscale Heat Transport",
+      "credits": 4
+    },
+    "ME F432": {
+      "courseTitle": "Computer Aided Manufacturing",
+      "credits": 3
+    },
+    "ME F433": {
+      "courseTitle": "Solar Thermal Process Engineering",
+      "credits": 4
+    },
+    "ME F441": {
+      "courseTitle": "Automotive Vehicles",
+      "credits": 3
+    },
+    "ME F443": {
+      "courseTitle": "Quality Control, Assurance and Reliability",
+      "credits": 3
+    },
+    "ME F451": {
+      "courseTitle": "Mechanical Equipment Design",
+      "credits": 3
+    },
+    "ME F452": {
+      "courseTitle": "Composite Materials & Design",
+      "credits": 3
+    },
+    "ME F461": {
+      "courseTitle": "Refrigeration and Air Conditioning",
+      "credits": 3
+    },
+    "ME F472": {
+      "courseTitle": "Precision Engineering",
+      "credits": 3
+    },
+    "ME F481": {
+      "courseTitle": "Project Appraisal",
+      "credits": 3
+    },
+    "ME F482": {
+      "courseTitle": "Combustion",
+      "credits": 3
+    },
+    "ME F483": {
+      "courseTitle": "Wind Energy",
+      "credits": 3
+    },
+    "ME F484": {
+      "courseTitle": "Automotive Technology",
+      "credits": 3
+    },
+    "ME F485": {
+      "courseTitle": "Numerical Techniques for Fluid Flow and Heat Transfer",
+      "credits": 3
+    },
+    "ME F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "ME G512": {
+      "courseTitle": "Finite Element Methods",
+      "credits": 5
+    },
+    "ME G514": {
+      "courseTitle": "Turbo Machinery",
+      "credits": 5
+    },
+    "ME G515": {
+      "courseTitle": "Computational Fluid Dynamics",
+      "credits": 5
+    },
+    "MF F211": {
+      "courseTitle": "Mechanics of Solids",
+      "credits": 3
+    },
+    "MF F212": {
+      "courseTitle": "Fluid Mechanics",
+      "credits": 3
+    },
+    "MF F213": {
+      "courseTitle": "Material Science and Engineering",
+      "credits": 2
+    },
+    "MF F214": {
+      "courseTitle": "Applied Thermodynamics",
+      "credits": 3
+    },
+    "MF F215": {
+      "courseTitle": "Mechanical Engineering Laboratory",
+      "credits": 2
+    },
+    "MF F216": {
+      "courseTitle": "Materials Science and Engineering",
+      "credits": 3
+    },
+    "MF F217": {
+      "courseTitle": "Machine Drawing",
+      "credits": 2
+    },
+    "MF F218": {
+      "courseTitle": "Transport Phenomena in Manufacturing",
+      "credits": 4
+    },
+    "MF F219": {
+      "courseTitle": "Operations Management",
+      "credits": 3
+    },
+    "MF F220": {
+      "courseTitle": "Metrology and Quality Assurance",
+      "credits": 3
+    },
+    "MF F221": {
+      "courseTitle": "Mechanisms and Machines",
+      "credits": 3
+    },
+    "MF F222": {
+      "courseTitle": "Casting, Forming and Welding",
+      "credits": 4
+    },
+    "MF F241": {
+      "courseTitle": "Machine Design and Drawing",
+      "credits": 4
+    },
+    "MF F242": {
+      "courseTitle": "Manufacturing Management",
+      "credits": 2
+    },
+    "MF F243": {
+      "courseTitle": "Manufacturing Processes",
+      "credits": 3
+    },
+    "MF F244": {
+      "courseTitle": "Kinematics and Dynamics of Machinery",
+      "credits": 3
+    },
+    "MF F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "MF F311": {
+      "courseTitle": "Mechatronics and Automation",
+      "credits": 3
+    },
+    "MF F312": {
+      "courseTitle": "Tool and Fixture Design",
+      "credits": 3
+    },
+    "MF F313": {
+      "courseTitle": "Metal Forming and Machining",
+      "credits": 3
+    },
+    "MF F314": {
+      "courseTitle": "Design of Machine Elements",
+      "credits": 3
+    },
+    "MF F315": {
+      "courseTitle": "Automation and Control",
+      "credits": 4
+    },
+    "MF F316": {
+      "courseTitle": "Machining and Machine Tools",
+      "credits": 4
+    },
+    "MF F317": {
+      "courseTitle": "Computer Aided Design and Manufacturing",
+      "credits": 3
+    },
+    "MF F318": {
+      "courseTitle": "Non Traditional Manufacturing Processes",
+      "credits": 3
+    },
+    "MF F319": {
+      "courseTitle": "Supply Chain Management",
+      "credits": 3
+    },
+    "MF F320": {
+      "courseTitle": "Engineering Optimization",
+      "credits": 3
+    },
+    "MF F321": {
+      "courseTitle": "Procurement Management",
+      "credits": 3
+    },
+    "MF F341": {
+      "courseTitle": "Design of Machine Tools",
+      "credits": 3
+    },
+    "MF F342": {
+      "courseTitle": "Computer Aided Design",
+      "credits": 4
+    },
+    "MF F343": {
+      "courseTitle": "Casting and Welding",
+      "credits": 4
+    },
+    "MF F344": {
+      "courseTitle": "Engineering Optimization",
+      "credits": 2
+    },
+    "MF F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "MF F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "MF F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "MF F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "MF F411": {
+      "courseTitle": "Fluid Power Systems",
+      "credits": 4
+    },
+    "MF F412": {
+      "courseTitle": "Automotive Systems",
+      "credits": 3
+    },
+    "MF F413": {
+      "courseTitle": "Mechanical Vibrations and Acoustics",
+      "credits": 3
+    },
+    "MF F414": {
+      "courseTitle": "Manufacturing Excellence",
+      "credits": 3
+    },
+    "MF F415": {
+      "courseTitle": "Noise Engineering",
+      "credits": 3
+    },
+    "MF F416": {
+      "courseTitle": "Work System Design",
+      "credits": 3
+    },
+    "MF F418": {
+      "courseTitle": "Lean Manufacturing",
+      "credits": 3
+    },
+    "MF F421": {
+      "courseTitle": "Supply Chain Management",
+      "credits": 4
+    },
+    "MF F422": {
+      "courseTitle": "Supply Chain Modelling and Empirical Analysis",
+      "credits": 4
+    },
+    "MF F442": {
+      "courseTitle": "Advances in Materials Science",
+      "credits": 3
+    },
+    "MF F453": {
+      "courseTitle": "Industrial Relations",
+      "credits": 3
+    },
+    "MF F463": {
+      "courseTitle": "Maintenance and Safety",
+      "credits": 3
+    },
+    "MF F471": {
+      "courseTitle": "Instrumentation and Control",
+      "credits": 3
+    },
+    "MF F472": {
+      "courseTitle": "Precision Engineering",
+      "credits": 3
+    },
+    "MF F473": {
+      "courseTitle": "Product Design and Development",
+      "credits": 3
+    },
+    "MF F474": {
+      "courseTitle": "Product Design and Development Projects",
+      "credits": 3
+    },
+    "MF F485": {
+      "courseTitle": "Sustainable Manufacturing",
+      "credits": 3
+    },
+    "MF F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "MGTS F211": {
+      "courseTitle": "Principles of Management",
+      "credits": 3
+    },
+    "MGTS F311": {
+      "courseTitle": "Marketing",
+      "credits": 3
+    },
+    "MGTS F313": {
+      "courseTitle": "Product and Brand Management",
+      "credits": 3
+    },
+    "MGTS F315": {
+      "courseTitle": "Managerial and Leadership Skills",
+      "credits": 3
+    },
+    "MGTS F351": {
+      "courseTitle": "Organisational Behaviour",
+      "credits": 3
+    },
+    "MGTS F433": {
+      "courseTitle": "Advertising and Sales Promotion",
+      "credits": 3
+    },
+    "MST F331": {
+      "courseTitle": "Materials Characterisation",
+      "credits": 4
+    },
+    "MST F332": {
+      "courseTitle": "Materials Processing",
+      "credits": 3
+    },
+    "MST F333": {
+      "courseTitle": "Introduction to Biomaterials",
+      "credits": 3
+    },
+    "MST F334": {
+      "courseTitle": "Materials for Catalytic Applications",
+      "credits": 3
+    },
+    "MST F335": {
+      "courseTitle": "Coating and Thin Film Technology",
+      "credits": 3
+    },
+    "MST F336": {
+      "courseTitle": "Glass Technology",
+      "credits": 3
+    },
+    "MST F337": {
+      "courseTitle": "Materials for Energy Applications",
+      "credits": 3
+    },
+    "MST F338": {
+      "courseTitle": "Metals and Alloys",
+      "credits": 3
+    },
+    "MST F339": {
+      "courseTitle": "Polymer Materials",
+      "credits": 3
+    },
+    "MST G521": {
+      "courseTitle": "Material Characterization Techniques",
+      "credits": 5
+    },
+    "MST G522": {
+      "courseTitle": "Advanced Composites",
+      "credits": 5
+    },
+    "MSE G511": {
+      "courseTitle": "Mechantronics",
+      "credits": 5
+    },
+    "PHA F211": {
+      "courseTitle": "Pharmaceutical Analysis",
+      "credits": 3
+    },
+    "PHA F212": {
+      "courseTitle": "Dispensing Pharmacy",
+      "credits": 3
+    },
+    "PHA F213": {
+      "courseTitle": "MicroBiology",
+      "credits": 3
+    },
+    "PHA F214": {
+      "courseTitle": "Anatomy, Physiology & Hygiene",
+      "credits": 3
+    },
+    "PHA F215": {
+      "courseTitle": "Introduction to Molecular Biology and Immunology",
+      "credits": 3
+    },
+    "PHA F216": {
+      "courseTitle": "Pharmaceutical Formulations I",
+      "credits": 3
+    },
+    "PHA F217": {
+      "courseTitle": "Pharmaceutical Microbiology",
+      "credits": 3
+    },
+    "PHA F241": {
+      "courseTitle": "Pharmaceutical Chemistry",
+      "credits": 3
+    },
+    "PHA F242": {
+      "courseTitle": "Biological Chemistry",
+      "credits": 3
+    },
+    "PHA F243": {
+      "courseTitle": "Industrial Pharmacy",
+      "credits": 3
+    },
+    "PHA F244": {
+      "courseTitle": "Physical Pharmacy",
+      "credits": 3
+    },
+    "PHA F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "PHA F311": {
+      "courseTitle": "Pharmacology I",
+      "credits": 3
+    },
+    "PHA F312": {
+      "courseTitle": "Medicinal Chemistry I",
+      "credits": 3
+    },
+    "PHA F313": {
+      "courseTitle": "Instrumental Methods of Analysis",
+      "credits": 4
+    },
+    "PHA F314": {
+      "courseTitle": "Pharmaceutical Formulations and Biopharmaceutics",
+      "credits": 3
+    },
+    "PHA F315": {
+      "courseTitle": "Pharmaceutical Formulations II",
+      "credits": 3
+    },
+    "PHA F341": {
+      "courseTitle": "Pharmacology II",
+      "credits": 3
+    },
+    "PHA F342": {
+      "courseTitle": "Medicinal Chemistry II",
+      "credits": 3
+    },
+    "PHA F343": {
+      "courseTitle": "Forensic Pharmacy",
+      "credits": 2
+    },
+    "PHA F344": {
+      "courseTitle": "Natural Drugs",
+      "credits": 3
+    },
+    "PHA F316": {
+      "courseTitle": "Pharmaceutical Regulatory Science",
+      "credits": 3
+    },
+    "PHA F317": {
+      "courseTitle": "Safety Pharmacology and Toxicology",
+      "credits": 3
+    },
+    "PHA F413": {
+      "courseTitle": "Pharmaceutical Management and Quality Control",
+      "credits": 3
+    },
+    "PHA F414": {
+      "courseTitle": "Biopharmaceutics",
+      "credits": 3
+    },
+    "PHA F415": {
+      "courseTitle": "Pathophysiology",
+      "credits": 3
+    },
+    "PHA F416": {
+      "courseTitle": "Chemistry of Synthetic Drugs",
+      "credits": 3
+    },
+    "PHA F417": {
+      "courseTitle": "Pharmacoeconomics",
+      "credits": 3
+    },
+    "PHA F418": {
+      "courseTitle": "Biopharmaceutics and Pharmacokinetics",
+      "credits": 3
+    },
+    "PHA F419": {
+      "courseTitle": "Herbal Drug Technology",
+      "credits": 3
+    },
+    "PHA F422": {
+      "courseTitle": "Cosmetic Science",
+      "credits": 3
+    },
+    "PHA F432": {
+      "courseTitle": "Hospital Pharmacy",
+      "credits": 3
+    },
+    "PHA F441": {
+      "courseTitle": "Biochemical Engineering",
+      "credits": 3
+    },
+    "PHA F442": {
+      "courseTitle": "Applied Pharmaceutical Chemistry",
+      "credits": 3
+    },
+    "PHA F461": {
+      "courseTitle": "Phytochemistry",
+      "credits": 3
+    },
+    "PHA G546": {
+      "courseTitle": "Pharmaceutical Biostatistics",
+      "credits": 3
+    },
+    "PHA F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "PHA F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "PHA F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "PHA F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "PHA F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "PHY F112": {
+      "courseTitle": "General Physics",
+      "credits": 3
+    },
+    "PHY F211": {
+      "courseTitle": "Classical Mechanics",
+      "credits": 4
+    },
+    "PHY F212": {
+      "courseTitle": "Electromagnetic Theory I",
+      "credits": 3
+    },
+    "PHY F213": {
+      "courseTitle": "Optics",
+      "credits": 3
+    },
+    "PHY F214": {
+      "courseTitle": "Electricity, Magnetism & Optics Laboratory",
+      "credits": 2
+    },
+    "PHY F215": {
+      "courseTitle": "Introduction to Astronomy & Astrophysics",
+      "credits": 3
+    },
+    "PHY F241": {
+      "courseTitle": "Electromagnetic Theory II",
+      "credits": 4
+    },
+    "PHY F242": {
+      "courseTitle": "Quantum Mechanics I",
+      "credits": 3
+    },
+    "PHY F243": {
+      "courseTitle": "Mathematical Methods of Physics",
+      "credits": 3
+    },
+    "PHY F244": {
+      "courseTitle": "Modern Physics Laboratory",
+      "credits": 2
+    },
+    "PHY F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "PHY F311": {
+      "courseTitle": "Quantum Mechanics II",
+      "credits": 3
+    },
+    "PHY F312": {
+      "courseTitle": "Statistical Mechanics",
+      "credits": 3
+    },
+    "PHY F313": {
+      "courseTitle": "Computational Physics",
+      "credits": 3
+    },
+    "PHY F315": {
+      "courseTitle": "Theory of Relativity",
+      "credits": 3
+    },
+    "PHY F341": {
+      "courseTitle": "Solid State Physics",
+      "credits": 3
+    },
+    "PHY F342": {
+      "courseTitle": "Atomic & Molecular Physics",
+      "credits": 3
+    },
+    "PHY F343": {
+      "courseTitle": "Nuclear & Particle Physics",
+      "credits": 3
+    },
+    "PHY F344": {
+      "courseTitle": "Advanced Physics Laboratory",
+      "credits": 3
+    },
+    "PHY F345": {
+      "courseTitle": "Quantum Mechanics for Engineers",
+      "credits": 3
+    },
+    "PHY F316": {
+      "courseTitle": "Musical Acoustics",
+      "credits": 3
+    },
+    "PHY F317": {
+      "courseTitle": "Introduction to Radio Astronomy",
+      "credits": 3
+    },
+    "PHY F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "PHY F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "PHY F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "PHY F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "PHY F378": {
+      "courseTitle": "Plasma Physics and its Applications",
+      "credits": 3
+    },
+    "PHY F379": {
+      "courseTitle": "Thin Film Technology",
+      "credits": 3
+    },
+    "PHY F346": {
+      "courseTitle": "Laser Science and Technology",
+      "credits": 3
+    },
+    "PHY F412": {
+      "courseTitle": "Introduction To Quantum Field Theory",
+      "credits": 4
+    },
+    "PHY F413": {
+      "courseTitle": "Particle Physics",
+      "credits": 4
+    },
+    "PHY F414": {
+      "courseTitle": "Physics of Advanced Materials",
+      "credits": 4
+    },
+    "PHY F415": {
+      "courseTitle": "General Theory of Relativity and Cosmology",
+      "credits": 4
+    },
+    "PHY F416": {
+      "courseTitle": "Soft Condensed Matter Physics",
+      "credits": 4
+    },
+    "PHY F417": {
+      "courseTitle": "Experimental Methods of Physics",
+      "credits": 4
+    },
+    "PHY F418": {
+      "courseTitle": "Lasers and Applications",
+      "credits": 4
+    },
+    "PHY F419": {
+      "courseTitle": "Advanced Solid State Physics",
+      "credits": 4
+    },
+    "PHY F420": {
+      "courseTitle": "Quantum Optics",
+      "credits": 4
+    },
+    "PHY F421": {
+      "courseTitle": "Advanced Quantum Mechanics",
+      "credits": 4
+    },
+    "PHY F422": {
+      "courseTitle": "Group Theory and Applications",
+      "credits": 4
+    },
+    "PHY F423": {
+      "courseTitle": "Special Topics in Statistical Mechanics",
+      "credits": 4
+    },
+    "PHY F424": {
+      "courseTitle": "Advanced Electrodynamics",
+      "credits": 4
+    },
+    "PHY F425": {
+      "courseTitle": "Advanced Mathematical Methods of Physics",
+      "credits": 4
+    },
+    "PHY F426": {
+      "courseTitle": "Physics of Semiconductor Devices",
+      "credits": 4
+    },
+    "PHY F427": {
+      "courseTitle": "Atmospheric Physics",
+      "credits": 3
+    },
+    "PHY F428": {
+      "courseTitle": "Quantum Information Theory",
+      "credits": 3
+    },
+    "PHY F431": {
+      "courseTitle": "Geometrical Methods in Physics",
+      "credits": 3
+    },
+    "PHY F432": {
+      "courseTitle": "Classical Theory of Fields: A Symmetry Perspective",
+      "credits": 4
+    },
+    "PHY F433": {
+      "courseTitle": "Topics in Nonlinear Optics",
+      "credits": 3
+    },
+    "PHY F434": {
+      "courseTitle": "Foundations of Quantum Mechanics",
+      "credits": 3
+    },
+    "PHY G512": {
+      "courseTitle": "Advanced Quantum Field Theory",
+      "credits": 3
+    },
+    "PHY F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "EEE F111": {
+      "courseTitle": "Electrical Sciences",
+      "credits": 3
+    },
+    "EEE F211": {
+      "courseTitle": "Electrical Machines",
+      "credits": 3
+    },
+    "EEE F212": {
+      "courseTitle": "Electromagnetic Theory",
+      "credits": 3
+    },
+    "EEE F214": {
+      "courseTitle": "Electronic Devices",
+      "credits": 3
+    },
+    "EEE F215": {
+      "courseTitle": "Digital Design",
+      "credits": 3
+    },
+    "EEE F241": {
+      "courseTitle": "Microprocessors and Interfacing",
+      "credits": 3
+    },
+    "EEE F242": {
+      "courseTitle": "Control Systems",
+      "credits": 3
+    },
+    "EEE F243": {
+      "courseTitle": "Signals & Systems",
+      "credits": 3
+    },
+    "EEE F244": {
+      "courseTitle": "Microelectronic Circuits",
+      "credits": 3
+    },
+    "EEE F245": {
+      "courseTitle": "Control System Laboratory",
+      "credits": 1
+    },
+    "EEE F246": {
+      "courseTitle": "Electrical and Electronic Circuits Laboratory",
+      "credits": 2
+    },
+    "EEE F266": {
+      "courseTitle": "Study Project",
+      "credits": 3
+    },
+    "EEE F311": {
+      "courseTitle": "Communication Systems",
+      "credits": 3
+    },
+    "EEE F312": {
+      "courseTitle": "Power Systems",
+      "credits": 3
+    },
+    "EEE F313": {
+      "courseTitle": "Analog & Digital VLSI Design",
+      "credits": 3
+    },
+    "EEE F341": {
+      "courseTitle": "Analog Electronics",
+      "credits": 3
+    },
+    "EEE F345": {
+      "courseTitle": "Power Apparatus and Networks",
+      "credits": 3
+    },
+    "EEE F346": {
+      "courseTitle": "Data Communication Networks",
+      "credits": 2
+    },
+    "EEE F347": {
+      "courseTitle": "Communication Networks Laboratory",
+      "credits": 2
+    },
+    "EEE F348": {
+      "courseTitle": "FPGA Based System Design Laboratory",
+      "credits": 3
+    },
+    "EEE F366": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "EEE F367": {
+      "courseTitle": "Lab Project",
+      "credits": 3
+    },
+    "EEE F376": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "EEE F377": {
+      "courseTitle": "Design Project",
+      "credits": 3
+    },
+    "EEE F112": {
+      "courseTitle": "Electrical Sciences Laboratory",
+      "credits": 1
+    },
+    "EEE F213": {
+      "courseTitle": "Electrical Machines Laboratory",
+      "credits": 2
+    },
+    "EEE F216": {
+      "courseTitle": "Electronic Devices Laboratory",
+      "credits": 2
+    },
+    "EEE F217": {
+      "courseTitle": "Digital Design Laboratory",
+      "credits": 2
+    },
+    "EEE F316": {
+      "courseTitle": "Power Systems Laboratory",
+      "credits": 2
+    },
+    "EEE F317": {
+      "courseTitle": "Analog & Digital VLSI Design Laboratory",
+      "credits": 2
+    },
+    "EEE F343": {
+      "courseTitle": "Analog Electronics Laboratory",
+      "credits": 2
+    },
+    "EEE F344": {
+      "courseTitle": "Power Electronics Laboratory",
+      "credits": 2
+    },
+    "EEE 462": {
+      "courseTitle": "Advanced Power Systems",
+      "credits": 3
+    },
+    "EEE 472": {
+      "courseTitle": "Satellite Communication",
+      "credits": 3
+    },
+    "EEE 473": {
+      "courseTitle": "Wind Electrical Systems",
+      "credits": 3
+    },
+    "EEE 474": {
+      "courseTitle": "Antenna Theory and Design",
+      "credits": 4
+    },
+    "EEE 475": {
+      "courseTitle": "Special Electrical Machines",
+      "credits": 4
+    },
+    "EEE 476": {
+      "courseTitle": "Switch Gear and Protection",
+      "credits": 4
+    },
+    "EEE 477": {
+      "courseTitle": "Modelling of Field Effect Nanodevices",
+      "credits": 3
+    },
+    "EEE 478": {
+      "courseTitle": "Power Systems Laboratory",
+      "credits": 3
+    },
+    "EEE F491": {
+      "courseTitle": "Special Projects",
+      "credits": 3
+    },
+    "EEE G512": {
+      "courseTitle": "Embedded System Design",
+      "credits": 4
+    },
+    "EEE G626": {
+      "courseTitle": "Hardware Software COde Design",
+      "credits": 4
+    },
+    "ECOM F211": {
+      "courseTitle": "Data Structures & Algorithms",
+      "credits": 4
+    },
+    "ECOM F214": {
+      "courseTitle": "Electronic Devices",
+      "credits": 3
+    },
+    "ECOM F213": {
+      "courseTitle": "Object Oriented Programming",
+      "credits": 4
+    },
+    "ECOM F215": {
+      "courseTitle": "Digital Design",
+      "credits": 4
+    },
+    "ECOM F222": {
+      "courseTitle": "Discrete Structures for CS",
+      "credits": 3
+    },
+    "ECOM F241": {
+      "courseTitle": "Microprocessors and Interfacing",
+      "credits": 4
+    },
+    "ECOM F242": {
+      "courseTitle": "Control Systems",
+      "credits": 3
+    },
+    "ECOM F243": {
+      "courseTitle": "Signals & Systems",
+      "credits": 3
+    },
+    "ECOM F244": {
+      "courseTitle": "Microelectronic Circuits",
+      "credits": 3
+    },
+    "ECOM F313": {
+      "courseTitle": "Analog & Digital VLSI Design",
+      "credits": 3
+    },
+    "ECOM F321": {
+      "courseTitle": "Real Time Operating Systems",
+      "credits": 4
+    },
+    "ECOM F342": {
+      "courseTitle": "Computer Architecture",
+      "credits": 4
+    },
+    "ECOM F343": {
+      "courseTitle": "Communication Networks",
+      "credits": 3
+    },
+    "ECOM F462": {
+      "courseTitle": "Network Programming",
+      "credits": 3
+    },
+    "SNS F211": {
+      "courseTitle": "Fundamentals of Nanoscience and Nanotechnology",
+      "credits": 3
+    },
+    "SNS F212": {
+      "courseTitle": "Basic Electronics",
+      "credits": 3
+    },
+    "SNS F213": {
+      "courseTitle": "Material Science of Solid State Devices",
+      "credits": 3
+    },
+    "SNS F241": {
+      "courseTitle": "Chemistry at Nanoscale",
+      "credits": 3
+    },
+    "SNS F242": {
+      "courseTitle": "Electronic Devices",
+      "credits": 3
+    },
+    "SNS F243": {
+      "courseTitle": "Materials & Nanoscale Characterization",
+      "credits": 3
+    },
+    "SNS F311": {
+      "courseTitle": "Semiconductor Thin Film Technology",
+      "credits": 3
+    },
+    "SNS F312": {
+      "courseTitle": "Molecular Simulations",
+      "credits": 3
+    },
+    "SNS F313": {
+      "courseTitle": "Instrumental Methods of Analysis",
+      "credits": 3
+    },
+    "SNS F341": {
+      "courseTitle": "Principles of Nanobiotechnology",
+      "credits": 3
+    },
+    "SNS F342": {
+      "courseTitle": "Principles of Nanophotonics and Devices",
+      "credits": 3
+    },
+    "SNS F343": {
+      "courseTitle": "Advanced Nanofabrication",
+      "credits": 3
+    }
+  }
+}
