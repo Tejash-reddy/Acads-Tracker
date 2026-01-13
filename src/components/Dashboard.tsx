@@ -9,6 +9,13 @@ import { CalendarView } from './CalendarView';
 import { TodoList } from './TodoList';
 import { ExpenseTracker } from './ExpenseTracker';
 import {
+  Dialog,
+  DialogContent,
+  DialogHeader,
+  DialogTitle,
+  DialogDescription,
+} from '@/components/ui/dialog';
+import {
   Calculator,
   Calendar,
   Clock,
@@ -20,6 +27,7 @@ import {
   Menu,
   X,
   Wand2,
+  Github,
 } from 'lucide-react';
 
 type TabId = 'cgpa' | 'timetable' | 'generator' | 'attendance' | 'calendar' | 'todo' | 'expenses';
@@ -42,6 +50,7 @@ const TABS: { id: TabId; label: string; icon: React.ElementType }[] = [
 export function Dashboard({ profile, onLogout }: DashboardProps) {
   const [activeTab, setActiveTab] = useState<TabId>('attendance');
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [dialogOpen, setDialogOpen] = useState(false);
 
   const renderTabContent = () => {
     switch (activeTab) {
@@ -71,9 +80,14 @@ export function Dashboard({ profile, onLogout }: DashboardProps) {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-              <div className="p-2 rounded-xl bg-primary/20">
+              <Button
+                variant="ghost"
+                size="icon"
+                className="p-2 rounded-xl bg-primary/20 hover:bg-primary/30"
+                onClick={() => setDialogOpen(true)}
+              >
                 <GraduationCap className="w-6 h-6 text-primary" />
-              </div>
+              </Button>
               <div>
                 <h1 className="font-bold text-lg gradient-text">Academic Hub</h1>
                 <p className="text-xs text-muted-foreground">
@@ -144,6 +158,31 @@ export function Dashboard({ profile, onLogout }: DashboardProps) {
       <main className="container mx-auto px-4 py-8">
         <div className="animate-fade-in">{renderTabContent()}</div>
       </main>
+
+      {/* Dialog with Creator Info */}
+      <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
+        <DialogContent className="sm:max-w-[500px]">
+          <DialogHeader>
+            <DialogTitle>About</DialogTitle>
+          </DialogHeader>
+          <div className="space-y-4">
+            <div className="text-center space-y-2">
+              <p className="text-lg text-muted-foreground whitespace-pre-line">
+                Created by Tejash Reddy{'\n'}2025B7PS0516H
+              </p>
+              <a
+                href="https://github.com/Tejash-reddy/Acads-Tracker.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:underline inline-flex items-center gap-2"
+              >
+                <Github className="w-5 h-5" />
+                View on GitHub
+              </a>
+            </div>
+          </div>
+        </DialogContent>
+      </Dialog>
     </div>
   );
 }
