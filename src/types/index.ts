@@ -98,7 +98,7 @@ export const GRADES: Record<string, number> = {
 };
 
 export const A_SERIES_BRANCHES = ['A1', 'A2', 'A3', 'A4', 'A5', 'A7', 'A8', 'AA', 'AD', 'AJ'];
-export const B_SERIES_BRANCHES = ['B1', 'B2', 'B3', 'B4', 'B5', 'B7'];
+export const B_SERIES_BRANCHES = ['None','B1', 'B2', 'B3', 'B4', 'B5', 'B7'];
 
 export const A_SERIES_SEMESTERS = ['1-1', '1-2', '2-1', '2-2', 'PS-1', '3-1', '3-2', 'ST-1', '4-1', '4-2'];
 export const B_SERIES_SEMESTERS = [...A_SERIES_SEMESTERS, 'ST-2', '5-1', '5-2'];
