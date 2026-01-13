@@ -3,7 +3,7 @@ import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { SelectedSection, DAY_NAMES, SLOT_MAP } from '@/types';
 import { useLocalStorage } from '@/hooks/useLocalStorage';
-import { Check, X, Ban, RotateCcw, Calendar, Clock, MapPin, User } from 'lucide-react';
+import { Check, X, Ban, RotateCcw, Calendar, Clock, MapPin, User, BookOpen } from 'lucide-react';
 
 interface AttendanceRecord {
   date: string;
@@ -92,14 +92,79 @@ export function AttendanceTracker() {
     return 'bg-secondary/50 border-border/50';
   };
 
+  // Helper to get section type from section name
+  const getSectionType = (courseCode: string, section: string): 'L' | 'T' | 'P' | null => {
+    const sectionEntry = selectedSections.find(
+      (s) => s.courseCode === courseCode && s.section === section
+    );
+    return sectionEntry?.sectionType || null;
+  };
+
+  // Filter attendance records to only include L and T sections
+  const lAndTAttendanceRecords = useMemo(() => {
+    return attendanceRecords.filter((record) => {
+      const sectionType = getSectionType(record.courseCode, record.section);
+      return sectionType === 'L' || sectionType === 'T';
+    });
+  }, [attendanceRecords, selectedSections]);
+
   const stats = useMemo(() => {
-    const present = attendanceRecords.filter((r) => r.status === 'present').length;
-    const absent = attendanceRecords.filter((r) => r.status === 'absent').length;
-    const cancelled = attendanceRecords.filter((r) => r.status === 'cancelled').length;
+    const present = lAndTAttendanceRecords.filter((r) => r.status === 'present').length;
+    const absent = lAndTAttendanceRecords.filter((r) => r.status === 'absent').length;
+    const cancelled = lAndTAttendanceRecords.filter((r) => r.status === 'cancelled').length;
     const percentage = (present + absent) > 0 ? ((present / (present + absent)) * 100) : 0;
     
     return { present, absent, cancelled, percentage };
-  }, [attendanceRecords]);
+  }, [lAndTAttendanceRecords]);
+
+  // Course-wise attendance (only L and T sections)
+  const courseWiseAttendance = useMemo(() => {
+    const courseMap = new Map<string, {
+      courseCode: string;
+      courseTitle: string;
+      present: number;
+      absent: number;
+      cancelled: number;
+      total: number;
+      percentage: number;
+    }>();
+
+    lAndTAttendanceRecords.forEach((record) => {
+      if (!record.status || record.status === null) return;
+      
+      const sectionEntry = selectedSections.find(
+        (s) => s.courseCode === record.courseCode && s.section === record.section
+      );
+      
+      if (!sectionEntry) return;
+
+      const existing = courseMap.get(record.courseCode);
+      if (!existing) {
+        courseMap.set(record.courseCode, {
+          courseCode: record.courseCode,
+          courseTitle: sectionEntry.courseTitle,
+          present: record.status === 'present' ? 1 : 0,
+          absent: record.status === 'absent' ? 1 : 0,
+          cancelled: record.status === 'cancelled' ? 1 : 0,
+          total: 1,
+          percentage: 0,
+        });
+      } else {
+        if (record.status === 'present') existing.present++;
+        if (record.status === 'absent') existing.absent++;
+        if (record.status === 'cancelled') existing.cancelled++;
+        existing.total++;
+      }
+    });
+
+    // Calculate percentages
+    courseMap.forEach((course) => {
+      const totalCounted = course.present + course.absent;
+      course.percentage = totalCounted > 0 ? (course.present / totalCounted) * 100 : 0;
+    });
+
+    return Array.from(courseMap.values()).sort((a, b) => a.courseCode.localeCompare(b.courseCode));
+  }, [lAndTAttendanceRecords, selectedSections]);
 
   return (
     <div className="space-y-6">
@@ -122,6 +187,64 @@ export function AttendanceTracker() {
           <p className="text-sm text-muted-foreground">Attendance</p>
         </Card>
       </div>
+
+      {/* Course-wise Attendance (L and T only) */}
+      {courseWiseAttendance.length > 0 && (
+        <Card className="glass-card p-6">
+          <div className="flex items-center gap-4 mb-6">
+            <BookOpen className="w-5 h-5 text-primary" />
+            <div>
+              <h3 className="font-semibold">Course-wise Attendance</h3>
+              <p className="text-sm text-muted-foreground">
+                Lecture (L) and Tutorial (T) sections only
+              </p>
+            </div>
+          </div>
+          <div className="space-y-4">
+            {courseWiseAttendance.map((course) => (
+              <div
+                key={course.courseCode}
+                className="p-4 rounded-xl border bg-secondary/30 border-border/50"
+              >
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                  <div className="flex-1">
+                    <p className="font-semibold text-lg">{course.courseCode}</p>
+                    <p className="text-sm text-muted-foreground">{course.courseTitle}</p>
+                  </div>
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                    <div className="flex items-center gap-4 text-sm">
+                      <div className="text-center">
+                        <p className="text-2xl font-bold text-success">{course.present}</p>
+                        <p className="text-xs text-muted-foreground">Present</p>
+                      </div>
+                      <div className="text-center">
+                        <p className="text-2xl font-bold text-destructive">{course.absent}</p>
+                        <p className="text-xs text-muted-foreground">Absent</p>
+                      </div>
+                      {course.cancelled > 0 && (
+                        <div className="text-center">
+                          <p className="text-2xl font-bold text-warning">{course.cancelled}</p>
+                          <p className="text-xs text-muted-foreground">Cancelled</p>
+                        </div>
+                      )}
+                    </div>
+                    <div className="text-center sm:text-right">
+                      <p className={`text-2xl font-bold ${
+                        course.percentage >= 75 ? 'text-success' :
+                        course.percentage >= 50 ? 'text-warning' :
+                        'text-destructive'
+                      }`}>
+                        {course.percentage.toFixed(1)}%
+                      </p>
+                      <p className="text-xs text-muted-foreground">Attendance</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </Card>
+      )}
 
       {/* Today's Classes */}
       <Card className="glass-card p-6">
