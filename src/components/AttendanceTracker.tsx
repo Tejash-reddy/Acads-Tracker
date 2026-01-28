@@ -196,7 +196,7 @@ export function AttendanceTracker() {
             <div>
               <h3 className="font-semibold">Course-wise Attendance</h3>
               <p className="text-sm text-muted-foreground">
-                Lecture (L) and Tutorial (T) sections only
+                Only Lectures and Tutorials are considered
               </p>
             </div>
           </div>

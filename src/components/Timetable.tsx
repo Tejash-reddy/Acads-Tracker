@@ -37,7 +37,7 @@ const examsOverlap = (exam1: string, exam2: string): boolean => {
   const time1 = parseExamTime(exam1);
   const time2 = parseExamTime(exam2);
   if (!time1 || !time2) return false;
-  
+
   // Exams overlap if one starts before the other ends
   return time1.start < time2.end && time2.start < time1.end;
 };
@@ -46,8 +46,8 @@ const examsOverlap = (exam1: string, exam2: string): boolean => {
 const formatExamTime = (isoString: string): string => {
   const time = parseExamTime(isoString);
   if (!time) return 'TBA';
-  return time.start.toLocaleDateString('en-IN', { 
-    day: '2-digit', 
+  return time.start.toLocaleDateString('en-IN', {
+    day: '2-digit',
     month: 'short',
     hour: '2-digit',
     minute: '2-digit'
@@ -63,7 +63,7 @@ export function Timetable() {
   const selectedCourse = selectedCourseCode ? courseData.courses[selectedCourseCode] : null;
 
   // Get unique course codes from selected sections
-  const selectedCourseCodes = useMemo(() => 
+  const selectedCourseCodes = useMemo(() =>
     Array.from(new Set(selectedSections.map(s => s.courseCode))),
     [selectedSections]
   );
@@ -71,15 +71,15 @@ export function Timetable() {
   // Detect schedule clashes
   const clashes = useMemo(() => {
     const clashList: ClashInfo[] = [];
-    
+
     for (let i = 0; i < selectedSections.length; i++) {
       for (let j = i + 1; j < selectedSections.length; j++) {
         const s1 = selectedSections[i];
         const s2 = selectedSections[j];
-        
+
         // Skip if same course (multiple schedules for same section)
         if (s1.courseCode === s2.courseCode && s1.section === s2.section) continue;
-        
+
         for (const day of s1.days) {
           if (s2.days.includes(day)) {
             for (const slot of s1.slots) {
@@ -91,26 +91,26 @@ export function Timetable() {
         }
       }
     }
-    
+
     return clashList;
   }, [selectedSections]);
 
   // Detect exam clashes
   const examClashes = useMemo(() => {
     const clashList: ExamClashInfo[] = [];
-    
+
     for (let i = 0; i < selectedCourseCodes.length; i++) {
       for (let j = i + 1; j < selectedCourseCodes.length; j++) {
         const code1 = selectedCourseCodes[i];
         const code2 = selectedCourseCodes[j];
         const course1 = courseData.courses[code1];
         const course2 = courseData.courses[code2];
-        
+
         const exam1 = course1?.exams_iso?.[0];
         const exam2 = course2?.exams_iso?.[0];
-        
+
         if (!exam1 || !exam2) continue;
-        
+
         // Check midsem clash
         if (exam1.midsem && exam2.midsem && examsOverlap(exam1.midsem, exam2.midsem)) {
           clashList.push({
@@ -120,7 +120,7 @@ export function Timetable() {
             dateTime: formatExamTime(exam1.midsem)
           });
         }
-        
+
         // Check compre clash
         if (exam1.compre && exam2.compre && examsOverlap(exam1.compre, exam2.compre)) {
           clashList.push({
@@ -132,20 +132,20 @@ export function Timetable() {
         }
       }
     }
-    
+
     return clashList;
   }, [selectedCourseCodes]);
 
   // Get section types (L, T, P) and their available sections
   const availableSections = useMemo(() => {
     if (!selectedCourse?.sections) return [];
-    
+
     const sections: { name: string; type: 'L' | 'T' | 'P'; instructor: string[]; room: string }[] = [];
-    
+
     for (const [sectionName, sectionData] of Object.entries(selectedCourse.sections)) {
       const type = sectionName.charAt(0) as 'L' | 'T' | 'P';
       if (!['L', 'T', 'P'].includes(type)) continue;
-      
+
       const firstSchedule = sectionData.schedule[0];
       sections.push({
         name: sectionName,
@@ -154,7 +154,7 @@ export function Timetable() {
         room: firstSchedule?.room || 'TBA',
       });
     }
-    
+
     return sections.sort((a, b) => a.name.localeCompare(b.name));
   }, [selectedCourse]);
 
@@ -169,10 +169,31 @@ export function Timetable() {
       .slice(0, 100);
   }, [searchQuery]);
 
+  // Build preview sections for the selected section (before adding)
+  const previewSections = useMemo((): SelectedSection[] => {
+    if (!selectedCourseCode || !selectedSectionName || !selectedCourse) return [];
+
+    const sectionData = selectedCourse.sections[selectedSectionName];
+    if (!sectionData) return [];
+
+    const sectionType = selectedSectionName.charAt(0) as 'L' | 'T' | 'P';
+
+    return sectionData.schedule.map((sched) => ({
+      courseCode: selectedCourseCode,
+      courseTitle: selectedCourse.course_name,
+      sectionType,
+      section: selectedSectionName,
+      instructor: sectionData.instructor,
+      room: sched.room,
+      days: sched.days,
+      slots: sched.hours.filter((h) => h >= 1 && h <= 11),
+    }));
+  }, [selectedCourseCode, selectedSectionName, selectedCourse]);
+
   // Check if adding a section would cause clash
   const wouldClash = useMemo(() => {
     if (!selectedCourseCode || !selectedSectionName || !selectedCourse) return false;
-    
+
     const sectionData = selectedCourse.sections[selectedSectionName];
     if (!sectionData) return false;
 
@@ -191,6 +212,29 @@ export function Timetable() {
     }
     return false;
   }, [selectedCourseCode, selectedSectionName, selectedCourse, selectedSections]);
+
+  // Build preview grid - shows where the selected section would be placed
+  const previewGrid = useMemo(() => {
+    const grid: Record<string, Record<number, boolean>> = {};
+    DAYS.forEach((day) => {
+      grid[day] = {};
+      for (let slot = 1; slot <= 11; slot++) {
+        grid[day][slot] = false;
+      }
+    });
+
+    previewSections.forEach((entry) => {
+      entry.days.forEach((day) => {
+        entry.slots.forEach((slot) => {
+          if (grid[day] && slot >= 1 && slot <= 11) {
+            grid[day][slot] = true;
+          }
+        });
+      });
+    });
+
+    return grid;
+  }, [previewSections]);
 
   const addSection = () => {
     if (!selectedCourseCode || !selectedSectionName || !selectedCourse) return;
@@ -225,7 +269,7 @@ export function Timetable() {
 
   const timetableGrid = useMemo(() => {
     const grid: Record<string, Record<number, SelectedSection[]>> = {};
-    
+
     DAYS.forEach((day) => {
       grid[day] = {};
       for (let slot = 1; slot <= 11; slot++) {
@@ -314,7 +358,7 @@ export function Timetable() {
       {/* Add Section */}
       <Card className="glass-card p-6">
         <h3 className="font-semibold mb-4">Add Course Section</h3>
-        
+
         <div className="relative mb-4">
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
           <Input
@@ -344,8 +388,8 @@ export function Timetable() {
 
           <div className="space-y-1">
             <label className="text-xs text-muted-foreground">Section</label>
-            <Select 
-              value={selectedSectionName} 
+            <Select
+              value={selectedSectionName}
               onValueChange={setSelectedSectionName}
               disabled={!selectedCourseCode || availableSections.length === 0}
             >
@@ -355,11 +399,10 @@ export function Timetable() {
               <SelectContent className="bg-popover max-h-[300px]">
                 {availableSections.map((s) => (
                   <SelectItem key={s.name} value={s.name}>
-                    <span className={`inline-block w-8 ${
-                      s.type === 'L' ? 'text-primary' :
+                    <span className={`inline-block w-8 ${s.type === 'L' ? 'text-primary' :
                       s.type === 'T' ? 'text-warning' :
-                      'text-grade-b'
-                    }`}>{s.name}</span>
+                        'text-grade-b'
+                      }`}>{s.name}</span>
                     <span className="text-muted-foreground ml-2">• {s.room}</span>
                   </SelectItem>
                 ))}
@@ -402,11 +445,10 @@ export function Timetable() {
                   {availableSections.map((s) => (
                     <span
                       key={s.name}
-                      className={`px-2 py-0.5 rounded-full text-xs ${
-                        s.type === 'L' ? 'bg-primary/20 text-primary' :
+                      className={`px-2 py-0.5 rounded-full text-xs ${s.type === 'L' ? 'bg-primary/20 text-primary' :
                         s.type === 'T' ? 'bg-warning/20 text-warning' :
-                        'bg-grade-b/20 text-grade-b'
-                      }`}
+                          'bg-grade-b/20 text-grade-b'
+                        }`}
                     >
                       {s.name}
                     </span>
@@ -437,6 +479,10 @@ export function Timetable() {
             <div className="w-4 h-4 rounded bg-destructive/30 border border-destructive" />
             <span className="text-sm text-muted-foreground">Clash</span>
           </div>
+          <div className="flex items-center gap-2">
+            <div className="w-4 h-4 rounded bg-success/30 border-2 border-dashed border-success" />
+            <span className="text-sm text-muted-foreground">Preview</span>
+          </div>
         </div>
       </Card>
 
@@ -446,7 +492,7 @@ export function Timetable() {
           <Calendar className="w-5 h-5 text-primary" />
           <h3 className="font-semibold">Weekly Schedule</h3>
         </div>
-        
+
         <div className="min-w-[800px]">
           <div className="grid grid-cols-[100px_repeat(6,1fr)] gap-2">
             <div className="flex items-center justify-center p-3 rounded-lg bg-secondary/50 font-semibold">
@@ -472,18 +518,38 @@ export function Timetable() {
                   const entries = timetableGrid[day][slot];
                   const isClash = entries.length > 1;
                   const entry = entries[0] || null;
-                  const colorClass = getSlotColor(entry, isClash);
-                  
+                  const isPreview = previewGrid[day]?.[slot] && !entry;
+                  const isPreviewClash = previewGrid[day]?.[slot] && entry;
+                  const previewEntry = previewSections.find(
+                    (s) => s.days.includes(day) && s.slots.includes(slot)
+                  );
+                  const colorClass = getSlotColor(entry, isClash || isPreviewClash);
+
                   return (
                     <div
                       key={`${day}-${slot}`}
-                      className={`p-3 rounded-lg border transition-all duration-200 min-h-[60px] ${
-                        entry
-                          ? `${colorClass} hover:scale-[1.02]`
-                          : 'bg-secondary/20 border-transparent'
-                      }`}
+                      className={`p-3 rounded-lg border transition-all duration-200 ${isPreview
+                        ? 'bg-success/20 border-2 border-dashed border-success'
+                        : isPreviewClash
+                          ? 'bg-destructive/30 border-2 border-dashed border-destructive'
+                          : entry
+                            ? `${colorClass} hover:scale-[1.02]`
+                            : 'bg-secondary/20 border-transparent'
+                        }`}
                     >
-                      {isClash ? (
+                      {isPreviewClash ? (
+                        <div className="text-center">
+                          <AlertTriangle className="w-4 h-4 mx-auto mb-1 text-destructive" />
+                          <p className="font-semibold text-xs text-destructive">CLASH</p>
+                          <p className="text-[10px] text-destructive">{entry?.courseCode} × {previewEntry?.courseCode}</p>
+                        </div>
+                      ) : isPreview && previewEntry ? (
+                        <div className="text-center">
+                          <p className="font-semibold text-sm text-success">{previewEntry.courseCode}</p>
+                          <p className="text-xs text-success/80">{previewEntry.section}</p>
+                          <p className="text-xs text-success/60">(Preview)</p>
+                        </div>
+                      ) : isClash ? (
                         <div className="text-center">
                           <AlertTriangle className="w-4 h-4 mx-auto mb-1" />
                           <p className="font-semibold text-xs">CLASH</p>
@@ -513,7 +579,7 @@ export function Timetable() {
             {Array.from(new Set(selectedSections.map((s) => s.courseCode))).map((courseCode) => {
               const courseSections = selectedSections.filter((s) => s.courseCode === courseCode);
               const first = courseSections[0];
-              
+
               const uniqueSections = new Map<string, { type: string; section: string; instructor: string[] }>();
               courseSections.forEach((s) => {
                 const key = `${s.sectionType}:${s.section}`;
@@ -530,11 +596,10 @@ export function Timetable() {
               return (
                 <div
                   key={courseCode}
-                  className={`flex items-center justify-between p-4 rounded-xl border ${
-                    hasClash 
-                      ? 'bg-destructive/10 border-destructive/30' 
-                      : 'bg-secondary/50 border-border/30'
-                  }`}
+                  className={`flex items-center justify-between p-4 rounded-xl border ${hasClash
+                    ? 'bg-destructive/10 border-destructive/30'
+                    : 'bg-secondary/50 border-border/30'
+                    }`}
                 >
                   <div className="flex-1">
                     <div className="flex items-center gap-2">
@@ -546,11 +611,10 @@ export function Timetable() {
                       {Array.from(uniqueSections.values()).map(({ type, section, instructor }) => (
                         <div key={`${type}-${section}`} className="flex items-center gap-1">
                           <span
-                            className={`px-2 py-0.5 rounded-full text-xs ${
-                              type === 'L' ? 'bg-primary/20 text-primary' :
+                            className={`px-2 py-0.5 rounded-full text-xs ${type === 'L' ? 'bg-primary/20 text-primary' :
                               type === 'T' ? 'bg-warning/20 text-warning' :
-                              'bg-grade-b/20 text-grade-b'
-                            }`}
+                                'bg-grade-b/20 text-grade-b'
+                              }`}
                           >
                             {section}
                           </span>
