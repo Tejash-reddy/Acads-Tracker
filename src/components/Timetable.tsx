@@ -267,6 +267,13 @@ export function Timetable() {
     setSelectedSections(updated);
   };
 
+  const removeSection = (courseCode: string, sectionName: string) => {
+    const updated = selectedSections.filter(
+      (s) => !(s.courseCode === courseCode && s.section === sectionName)
+    );
+    setSelectedSections(updated);
+  };
+
   const timetableGrid = useMemo(() => {
     const grid: Record<string, Record<number, SelectedSection[]>> = {};
 
@@ -609,14 +616,21 @@ export function Timetable() {
                     <p className="text-sm text-muted-foreground">{first.courseTitle}</p>
                     <div className="flex flex-wrap gap-2 mt-2">
                       {Array.from(uniqueSections.values()).map(({ type, section, instructor }) => (
-                        <div key={`${type}-${section}`} className="flex items-center gap-1">
+                        <div key={`${type}-${section}`} className="flex items-center gap-1 group">
                           <span
-                            className={`px-2 py-0.5 rounded-full text-xs ${type === 'L' ? 'bg-primary/20 text-primary' :
+                            className={`px-2 py-0.5 rounded-full text-xs flex items-center gap-1 ${type === 'L' ? 'bg-primary/20 text-primary' :
                               type === 'T' ? 'bg-warning/20 text-warning' :
                                 'bg-grade-b/20 text-grade-b'
                               }`}
                           >
                             {section}
+                            <button
+                              onClick={() => removeSection(courseCode, section)}
+                              className="ml-0.5 hover:bg-destructive/30 rounded-full p-0.5 transition-colors"
+                              title={`Remove ${section}`}
+                            >
+                              <Trash2 className="w-3 h-3" />
+                            </button>
                           </span>
                           <span className="text-xs text-muted-foreground flex items-center gap-1">
                             <User className="w-3 h-3" />
